@@ -10,11 +10,19 @@ const usersReducer = (users=[], action) =>{
     return users;
 }
 
+const userdetailsReducer = (users=[], action) =>{
+    if(action.type === FETCH_USERS){
+     return  [...users, ...action.payload]
+    }
+     return users;
+ }
+
 
 
  
 
 export default combineReducers({
     users: usersReducer,
+    userdetails: userdetailsReducer,
 
 });

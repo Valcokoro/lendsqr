@@ -13,6 +13,41 @@ class Users extends React.Component{
     this.props.fetchUsers();
   }
 
+  
+
+  renderForm(){
+      return (
+      <form>
+         <p className='form-org'>Organization</p>
+         <select>
+           <options>{this.renderOrganization()}</options>
+         </select>
+         <p className='form-org'>Username</p>
+         <input type='text' placeholder='User'/>
+         <p className='form-org'>Email</p>
+         <input type='text' placeholder='Email'/>
+         <p className='form-org'>Date</p>
+         <select>
+           <options></options>
+         </select>
+         <p className='form-org'>Phone Number</p>
+         <input type='text' placeholder='Phone Number'/>
+         <p className='form-org'>Date</p>
+         <select>
+           <options></options>
+         </select>
+         <button>Reset</button>
+         <button>Filter</button>
+      </form>
+      )
+  }
+
+  updateDate(){
+    this.setState({
+      data:this.renderForm()
+    })
+  }
+
   renderOrganization(){
     return this.props.users.map(user => {
       return(
@@ -92,34 +127,7 @@ class Users extends React.Component{
 
 
 render(){
-    const Form = () => {
-      return (
-      <form>
-         <p className='form-org'>Organization</p>
-         <select>
-           <options>{this.renderOrganization()}</options>
-         </select>
-         <p className='form-org'>Username</p>
-         <input type='text' placeholder='User'/>
-         <p className='form-org'>Email</p>
-         <input type='text' placeholder='Email'/>
-         <p className='form-org'>Date</p>
-         <select>
-           <options></options>
-         </select>
-         <p className='form-org'>Phone Number</p>
-         <input type='text' placeholder='Phone Number'/>
-         <p className='form-org'>Date</p>
-         <select>
-           <options></options>
-         </select>
-         <button>Reset</button>
-         <button>Filter</button>
-         
-
-         
-      </form>
-      )}
+    
     return (
         <div className='Users'>
           <p className='title-users'>Users</p> 

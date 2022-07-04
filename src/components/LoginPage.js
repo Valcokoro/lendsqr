@@ -21,7 +21,7 @@ class LoginPage extends React.Component{
           <p className='welcome'>Welcome!</p>
           <p className='enter'>Enter details to login.</p>
           <form className='form'>
-           <input name='Email'    type='text' placeholder='Email' className='email'/>
+          <input name='Email'    type='text' placeholder='Email' className='mail'/>
            <input name='Password' type='Password' placeholder='Password' className='password'/>
            <button className='show-btn'>SHOW</button>
            <button className='forgot-password-btn'>FORGOT PASSWORD?</button>

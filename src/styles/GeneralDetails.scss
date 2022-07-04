@@ -1,0 +1,828 @@
+@import "../variables/variables.scss";
+
+
+@media(min-width: 480px){
+
+.item1{
+    box-sizing: border-box;
+    position: $absPosition;
+    width: 940px;
+    height: 220px;
+    left: 285px;
+    top: 290px;
+    background: #FFFFFF;
+    border: 1px solid rgba(33, 63, 125, 0.06);
+    box-shadow: 3px 5px 20px rgba(0, 0, 0, 0.04);
+    border-radius: 4px;  
+}
+.personal-info{
+    position: $absPosition;
+    width: 165px;
+    height: 19px;
+    left: 43px;
+    top: 15px;
+    font-family: $titleFont2;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    color: #213F7D;
+}
+
+.full-name{
+    position: $absPosition;
+    width: 69px;
+    height: 14px;
+    left: 43px;
+    top: 65px;
+    font-family: $absPosition;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    text-transform: uppercase;
+    color: #545F7D;
+  }
+  .name-shown1{
+    position: $absPosition;
+    width: 132px;
+    height: 19px;
+    left: 43px;
+    top: 85px;
+    font-family: $titleFont2;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    color: #545F7D; 
+  }
+  .phone-number{
+    position: $absPosition;
+    width: 99px;
+    height: 14px;
+    left: 203px;
+    top: 65px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    text-transform: uppercase;
+    color: #545F7D;  
+  }
+  .phone-shown1{
+    position: $absPosition;
+    width: 132px;
+    height: 19px;
+    left: 203px;
+    top: 85px;
+    font-family: $titleFont2;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    color: #545F7D;   
+  }
+  .email-address{
+    position: $absPosition;
+    width: 99px;
+    height: 14px;
+    left: 343px;
+    top: 65px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    text-transform: uppercase;
+    color: #545F7D;    
+  }
+  .email-shown1{
+    position: $absPosition;
+    width: 132px;
+    height: 19px;
+    left: 343px;
+    top: 85px;
+    font-family: $titleFont2;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    color: #545F7D;  
+  }
+  .bvn{
+    position: $absPosition;
+    width: 99px;
+    height: 14px;
+    left: 488px;
+    top: 65px;
+    font-family: $titleFont2;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    text-transform: uppercase;
+    color: #545F7D;     
+  }
+  .bvn-shown1{
+    position: $absPosition;
+    width: 132px;
+    height: 19px;
+    left: 483px;
+    top: 85px;
+    font-family: $titleFont2;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    color: #545F7D;   
+  }
+  .gender{
+    position: $absPosition;
+    width: 99px;
+    height: 14px;
+    left: 618px;
+    top: 65px;
+    font-family: $titleFont2;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    text-transform: uppercase;
+    color: #545F7D;       
+  }
+  .gender-shown{
+    position: $absPosition;
+    width: 132px;
+    height: 19px;
+    left: 618px;
+    top: 85px;
+    font-family: $titleFont2;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    color: #545F7D;    
+  }
+  .marital-status{
+    position: $absPosition;
+    width: 139px;
+    height: 14px;
+    left: 48px;
+    top: 135px;
+    font-family: $titleFont2;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    text-transform: uppercase;
+    color: #545F7D;         
+  }
+  .single{
+    position: $absPosition;
+    width: 132px;
+    height: 19px;
+    left: 48px;
+    top: 155px;
+    font-family: $titleFont2;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    color: #545F7D;     
+  }
+  .children{
+    position: $absPosition;
+    width: 139px;
+    height: 14px;
+    left: 200px;
+    top: 135px;
+    font-family: $titleFont2;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    text-transform: uppercase;
+    color: #545F7D;           
+  }
+  .children-number{
+    position: $absPosition;
+    width: 132px;
+    height: 19px;
+    left: 200px;
+    top: 155px;
+    font-family: $titleFont2;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    color: #545F7D;      
+  }
+  .residence{
+    position: $absPosition;
+    width: 139px;
+    height: 14px;
+    left: 345px;
+    top: 135px;
+    font-family: $titleFont2;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    text-transform: uppercase;
+    color: #545F7D;       
+  }
+  .apartment{
+    position: $absPosition;
+    width: 162px;
+    height: 19px;
+    left: 345px;
+    top: 155px;
+    font-family: $titleFont2;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    color: #545F7D;       
+  }
+  .item2{
+    box-sizing: border-box;
+    position: $absPosition;
+    width: 940px;
+    height: 220px;
+    left: 285px;
+    top: 520px;
+    background: #FFFFFF;
+    border: 1px solid rgba(33, 63, 125, 0.06);
+    box-shadow: 3px 5px 20px rgba(0, 0, 0, 0.04);
+    border-radius: 4px;    
+  }
+  .education-info{
+    position: $absPosition;
+    width: 202px;  
+    height: 19px;
+    left: 43px;
+    top: 15px;
+    font-family: $titleFont2;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    color: #213F7D;
+  }
+  .education-level{
+    position: $absPosition;
+    width: 202px;  
+    height: 14px;
+    left: 43px;
+    top: 65px;
+    font-family: $absPosition;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    text-transform: uppercase;
+    color: #545F7D; 
+  }
+  .employment-status{
+    position: $absPosition;
+    width: 202px;
+    height: 14px;
+    left: 203px;
+    top: 65px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    text-transform: uppercase;
+    color: #545F7D;    
+  }
+  .employ-sector{
+    position: $absPosition;
+    width: 203px;
+    height: 14px;
+    left: 343px;
+    top: 65px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    text-transform: uppercase;
+    color: #545F7D;     
+  }
+  .employ-duration{
+    position: $absPosition;
+    width: 202px;
+    height: 14px;
+    left: 528px;
+    top: 65px;
+    font-family: $titleFont2;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    text-transform: uppercase;
+    color: #545F7D;       
+  }
+  .years{
+    position: $absPosition;
+    width: 132px;
+    height: 19px;
+    left: 533px;
+    top: 85px;
+    font-family: $titleFont2;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    color: #545F7D;     
+  }
+  .official-email{
+    position: $absPosition;
+    width: 139px;
+    height: 14px;
+    left: 48px;
+    top: 135px;
+    font-family: $titleFont2;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    text-transform: uppercase;
+    color: #545F7D;           
+  }
+  .email{
+    position: $absPosition;
+    width: 132px;
+    height: 19px;
+    left: 48px;
+    top: 155px;
+    font-family: $titleFont2;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    text-transform: lowercase;
+    color: #545F7D;      
+  }
+  .monthly-income{
+    position: $absPosition;
+    width: 202px;
+    height: 19px;
+    left: 200px;
+    top: 155px;
+    font-family: $titleFont2;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    color: #545F7D;        
+  }
+  .loan-repay{
+    position: $absPosition;
+    width: 139px;
+    height: 14px;
+    left: 420px;
+    top: 135px;
+    font-family: $titleFont2;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    text-transform: uppercase;
+    color: #545F7D;          
+  }
+  .amount{
+    position: $absPosition;
+    width: 162px;
+    height: 19px;
+    left: 420px;
+    top: 155px;
+    font-family: $titleFont2;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    color: #545F7D;   
+  }
+}
+
+
+
+
+
+
+
+
+
+
+@media(max-width: 780px){
+
+    .item1{
+        box-sizing: border-box;
+        position: absolute;
+        width: 320px;
+        height: 510px;
+        left: 30px;
+        top: 50px;
+        background: #FFFFFF;
+        border: 1px solid rgba(33, 63, 125, 0.06);
+        box-shadow: 3px 5px 20px rgba(0, 0, 0, 0.04);
+        border-radius: 4px;  
+    }
+    .personal-info{
+        position: $absPosition;
+        width: 165px;
+        height: 19px;
+        left: 43px;
+        top: 15px;
+        font-family: $titleFont2;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 19px;
+        color: #213F7D;
+    }
+    .full-name{
+        position: absolute;
+        width: 69px;
+        height: 14px;
+        left: 43px;
+        top: 65px;
+        font-family: 'Work Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 14px;
+        text-transform: uppercase;
+        color: #545F7D;
+      }
+    .name-shown1{
+        position: absolute;
+        width: 109px;
+        height: 14px;
+        left: 43px;
+        top: 90px;
+        font-family: 'Work Sans';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 14px;
+        color: #545F7D;
+    }
+    .phone-number{
+        position: $absPosition;
+        width: 99px;
+        height: 14px;
+        left: 185px;
+        top: 65px;
+        font-family: $titleFont2;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 14px;
+        text-transform: uppercase;
+        color: #545F7D;  
+      }
+      .phone-shown1{
+        position: $absPosition;
+        width: 132px;
+        height: 19px;
+        left: 185px;
+        top: 85px;
+        font-family: $titleFont2;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 19px;
+        color: #545F7D;   
+      }
+      .email-address{
+        position: $absPosition;
+        width: 99px;
+        height: 14px;
+        left: 45px;
+        top: 135px;
+        font-family: $titleFont2;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 14px;
+        text-transform: uppercase;
+        color: #545F7D;  
+      }
+      .email-shown1{
+        position: $absPosition;
+        width: 132px;
+        height: 19px;
+        left: 45px;
+        top: 155px;
+        font-family: $titleFont2;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 19px;
+        color: #545F7D;   
+      }
+      .bvn{
+        position: $absPosition;
+        width: 99px;
+        height: 14px;
+        left: 188px;
+        top: 135px;
+        font-family: $titleFont2;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 14px;
+        text-transform: uppercase;
+        color: #545F7D;  
+      }
+      .bvn-shown1{
+        position: $absPosition;
+        width: 132px;
+        height: 19px;
+        left: 188px;
+        top: 155px;
+        font-family: $titleFont2;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 19px;
+        color: #545F7D;    
+      }
+      .gender{
+        position: $absPosition;
+        width: 99px;
+        height: 14px;
+        left: 48px;
+        top: 210px;
+        font-family: $titleFont2;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 14px;
+        text-transform: uppercase;
+        color: #545F7D;  
+      }
+      .gender-shown{
+        position: $absPosition;
+        width: 132px;
+        height: 19px;
+        left: 48px;
+        top: 225px;
+        font-family: $titleFont2;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 19px;
+        color: #545F7D;    
+      }
+      .marital-status{
+        position: $absPosition;
+        width: 129px;
+        height: 14px;
+        left: 188px;
+        top: 210px;
+        font-family: $titleFont2;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 14px;
+        text-transform: uppercase;
+        color: #545F7D;       
+      }
+      .single{
+        position: $absPosition;
+        width: 132px;
+        height: 19px;
+        left: 188px;
+        top: 225px;
+        font-family: $titleFont2;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 19px;
+        color: #545F7D;   
+      }
+      .children{
+        position: $absPosition;
+        width: 129px;
+        height: 14px;
+        left: 48px;
+        top: 270px;
+        font-family: $titleFont2;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 14px;
+        text-transform: uppercase;
+        color: #545F7D;            
+      }
+      .children-number{
+        position: $absPosition;
+        width: 132px;
+        height: 19px;
+        left: 48px;
+        top: 290px;
+        font-family: $titleFont2;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 19px;
+        color: #545F7D;   
+      }
+      .residence{
+        position: $absPosition;
+        width: 129px;
+        height: 14px;
+        left: 182px;
+        top: 270px;
+        font-family: $titleFont2;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 14px;
+        text-transform: uppercase;
+        color: #545F7D;        
+      }
+      .apartment{
+        position: $absPosition;
+        width: 162px;
+        height: 19px;
+        left: 168px;
+        top: 290px;
+        font-family: $titleFont2;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 19px;
+        color: #545F7D;     
+      }
+      .item2{
+        box-sizing: border-box;
+        position: absolute;
+        width: 320px;
+        height: 510px;
+        left: 30px;
+        top: 580px;
+        background: #FFFFFF;
+        border: 1px solid rgba(33, 63, 125, 0.06);
+        box-shadow: 3px 5px 20px rgba(0, 0, 0, 0.04);
+        border-radius: 4px;  
+    }
+    .education-info{
+        position: $absPosition;
+        width: 202px;  
+        height: 19px;
+        left: 33px;
+        top: 15px;
+        font-family: $titleFont2;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 19px;
+        color: #213F7D;
+      }
+      .education-level{
+        position: $absPosition;
+        width: 202px;  
+        height: 14px;
+        left: 33px;
+        top: 65px;
+        font-family: $absPosition;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 14px;
+        text-transform: uppercase;
+        color: #545F7D; 
+      }
+      .employment-status{
+        position: $absPosition;
+        width: 202px;
+        height: 14px;
+        left: 173px;
+        top: 65px;
+        font-family: 'Work Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 14px;
+        text-transform: uppercase;
+        color: #545F7D;    
+      }
+      .employ-sector{
+        position: $absPosition;
+        width: 203px;
+        height: 14px;
+        left: 43px;
+        top: 135px;
+        font-family: 'Work Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 14px;
+        text-transform: uppercase;
+        color: #545F7D;     
+      }
+      .employ-duration{
+        position: $absPosition;
+        width: 202px;
+        height: 14px;
+        left: 43px;
+        top: 195px;
+        font-family: $titleFont2;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 14px;
+        text-transform: uppercase;
+        color: #545F7D;       
+      }
+      .years{
+        position: $absPosition;
+        width: 132px;
+        height: 19px;
+        left: 43px;
+        top: 215px;
+        font-family: $titleFont2;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 19px;
+        color: #545F7D;     
+      }
+      .official-email{
+        position: $absPosition;
+        width: 139px;
+        height: 14px;
+        left: 48px;
+        top: 345px;
+        font-family: $titleFont2;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 14px;
+        text-transform: uppercase;
+        color: #545F7D;           
+      }
+      .email{
+        position: $absPosition;
+        width: 202px;
+        height: 19px;
+        left: 48px;
+        top: 365px;
+        font-family: $titleFont2;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 19px;
+        text-transform: lowercase;
+        color: #545F7D;        
+      }
+      .monthly-income{
+        position: $absPosition;
+        width: 202px;
+        height: 19px;
+        left: 48px;
+        top: 295px;
+        font-family: $titleFont2;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 19px;
+        color: #545F7D;        
+      }
+      .loan-repay{
+        position: $absPosition;
+        width: 139px;
+        height: 14px;
+        left: 50px;
+        top: 415px;
+        font-family: $titleFont2;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 14px;
+        text-transform: uppercase;
+        color: #545F7D;          
+      }
+      .amount{
+        position: $absPosition;
+        width: 139px;
+        height: 14px;
+        left: 50px;
+        top: 440px;
+        font-family: $titleFont2;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 14px;
+        text-transform: uppercase;
+        color: #545F7D;         
+      }
+    
+}

@@ -1,0 +1,250 @@
+
+@import "../variables/variables.scss";
+    
+@media(min-width: 480px){
+
+.icon{
+  margin-left: 100px;  
+  margin-top: 60px;  
+  position: $absPosition;
+}
+.logo{
+  margin-left: 135px;  
+  margin-top: 60px;  
+  position: $absPosition;
+}
+.pablo{
+  margin-top: 200px;
+  margin-left: 120px;
+}
+.welcome{
+  position: $absPosition;
+  width: 183px;
+  height: 55px;
+  left: 836px;
+  margin-top: -400px;
+  font-family: $titleFont;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 55px;
+  letter-spacing: -0.04em;
+  color: $blueColor;
+}
+.enter{
+  position: $absPosition;
+  width: 194px;
+  height: 28px;
+  left: 838px;
+  margin-top: -340px;
+  font-family: 'Avenir Next';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 27px;
+}
+.email{
+  position: $absPosition;
+  width: 417px;
+  height: 50px;
+  left: 836px;
+  margin-top: -258px;
+  background: #FFFFFF;
+  border: 2px solid $greyColor;
+  border-radius: 5px;
+}
+.password{
+  position: $absPosition;
+  width: 417px;
+  height: 50px;
+  left: 836px;
+  margin-top: -178px;
+  background: #FFFFFF;
+  border: 2px solid $greyColor;
+  border-radius: 5px;
+}
+.show-btn{
+  position: $absPosition;
+  width: 49.41px;
+  height: 12.5px;
+  left: 1190.95px;
+  margin-top: -160px;
+  font-family: 'Avenir Next';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: $greenColor;
+  background-color: $whiteColor;
+  border-color: $whiteColor;
+  border: 0px;
+}
+.forgot-password-btn{
+  position: $absPosition;
+  width: 197px;
+  height: 17px;
+  left: 792px;
+  margin-top: -100px;
+  font-family: 'Avenir Next';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: right;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: $greenColor;
+  background-color: $whiteColor;
+  border-color: $whiteColor;
+  border: 0px;
+}
+.log-in-btn{
+  position: $absPosition;
+  width: 435px;
+  height: 50px;
+  left: 836px;
+  margin-top: -48px;
+  background: #39CDCC;
+  border-radius: 8px;
+  border:0px;
+  color: #FFFFFF;
+  font-family: $titleFont;
+  font-family: 'Avenir Next';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+}
+
+
+@media(max-width: 780px){
+.icon{
+  margin-left: 30px;  
+  margin-top: 40px;  
+  position: $absPosition;
+  width: 20.75px;
+}
+.logo{
+  margin-left: 60px;  
+  margin-top: 40px;  
+  position: $absPosition;
+  width: 118.44px;
+}
+.pablo{
+  margin-top: 90px;
+  margin-left: 20px;
+  width: 350px;
+  height: 150px;
+}
+.welcome{
+  position: $absPosition;
+  width: 183px;
+  height: 55px;
+  left: 110px;
+  margin-top: -10px;
+  font-family: $titleFont;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 55px;
+  letter-spacing: -0.04em;
+  color: $blueColor;
+  }
+  .enter{
+  position: $absPosition;
+  width: 194px;
+  height: 28px;
+  left: 110px;
+  margin-top: 45px;
+  font-family: $titleFont;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 27px;  
+  }
+  .email{
+   position:$absPosition;
+   width: 317px;
+   height: 40px;
+   left: 40px;
+   margin-top: 85px;
+   background: #FFFFFF;
+   border: 2px solid $greyColor;
+   border-radius: 5px;
+  }
+  .password{
+   position: $absPosition;
+   width: 317px;
+   height: 40px;
+   left: 40px;
+   margin-top: 150px;
+   background: #FFFFFF;
+   border: 2px solid $greyColor;
+   border-radius: 5px;
+  }
+  .show-btn{
+   position: $absPosition;
+   width: 49.41px;
+   height: 12.5px;
+   left: 295px;
+   margin-top: 165px;
+   font-family: $titleFont;
+   font-style: normal;
+   font-weight: 600;
+   font-size: 12px;
+   line-height: 16px;
+   letter-spacing: 0.1em;
+   text-transform: uppercase;
+   color: $greenColor;
+   background-color: $whiteColor;
+   border-color: $whiteColor;
+   border: 0px;
+  }
+  .forgot-password-btn{
+   position: $absPosition;
+   width: 197px;
+   height: 17px;
+   left: -3px;
+   margin-top: 215px;
+   font-family: $titleFont;
+   font-style: normal;
+   font-weight: 600;
+   font-size: 12px;
+   line-height: 16px;
+   text-align: right;
+   letter-spacing: 0.1em;
+   text-transform: uppercase;
+   color: $greenColor;
+   background-color: $whiteColor;
+   border-color: $whiteColor;
+   border: 0px;
+  }
+  .log-in-btn{
+    position: $absPosition;
+    width: 325px;
+    height: 50px;
+    left: 40px;
+    margin-top: 215px;
+    background: #39CDCC;
+    border-radius: 8px;
+    border:0px;
+    color: #FFFFFF;
+    font-family: $titleFont;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+  }
+  
+}
+

@@ -1,0 +1,955 @@
+@media (min-width: 480px) {
+  .title-users {
+    position: absolute;
+    width: 66px;
+    height: 28px;
+    left: 261px;
+    top: 130px;
+    font-family: "Work Sans";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    color: #213f7d;
+  }
+  .item1 {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    position: absolute;
+    width: 240px;
+    height: 160px;
+    left: 260px;
+    top: 228px;
+    background: #FFFFFF;
+    border: 1px solid rgba(33, 63, 125, 0.06);
+    -webkit-box-shadow: 3px 5px 20px rgba(0, 0, 0, 0.04);
+            box-shadow: 3px 5px 20px rgba(0, 0, 0, 0.04);
+    border-radius: 4px;
+  }
+  .usersn-icon {
+    margin-left: 25px;
+    margin-top: 15px;
+    position: absolute;
+  }
+  .usersn1-icon {
+    margin-left: 35px;
+    margin-top: 23px;
+    position: absolute;
+  }
+  .usersn2-icon {
+    margin-left: 44px;
+    margin-top: 23px;
+    position: absolute;
+  }
+  .usersn {
+    position: absolute;
+    width: 47px;
+    height: 16px;
+    margin-left: 27px;
+    margin-top: 66px;
+    font-family: "Work Sans";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    text-transform: uppercase;
+    color: #545f7d;
+  }
+  .usersn1 {
+    position: absolute;
+    width: 47px;
+    height: 16px;
+    margin-left: 29px;
+    margin-top: 96px;
+    font-family: "Work Sans";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 28px;
+    text-transform: uppercase;
+    color: #545f7d;
+  }
+  .item2 {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    position: absolute;
+    width: 240px;
+    height: 160px;
+    left: 529px;
+    top: 228px;
+    background: #FFFFFF;
+    border: 1px solid rgba(33, 63, 125, 0.06);
+    -webkit-box-shadow: 3px 5px 20px rgba(0, 0, 0, 0.04);
+            box-shadow: 3px 5px 20px rgba(0, 0, 0, 0.04);
+    border-radius: 4px;
+  }
+  .actusers-icon {
+    margin-left: 25px;
+    margin-top: 15px;
+    position: absolute;
+  }
+  .actusers1-icon {
+    margin-left: 33px;
+    margin-top: 22px;
+    position: absolute;
+  }
+  .item3 {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    position: absolute;
+    width: 240px;
+    height: 160px;
+    left: 795px;
+    top: 228px;
+    background: #FFFFFF;
+    border: 1px solid rgba(33, 63, 125, 0.06);
+    -webkit-box-shadow: 3px 5px 20px rgba(0, 0, 0, 0.04);
+            box-shadow: 3px 5px 20px rgba(0, 0, 0, 0.04);
+    border-radius: 4px;
+  }
+  .usersl-icon {
+    margin-left: 25px;
+    margin-top: 15px;
+    position: absolute;
+  }
+  .usersl1-icon {
+    margin-left: 36px;
+    margin-top: 25px;
+    position: absolute;
+  }
+  .usersl2-icon {
+    margin-left: 41px;
+    margin-top: 32px;
+    position: absolute;
+  }
+  .usersl {
+    position: absolute;
+    width: 139px;
+    height: 16px;
+    margin-left: 27px;
+    margin-top: 66px;
+    font-family: "Work Sans";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    text-transform: uppercase;
+    color: #545f7d;
+  }
+  .item4 {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    position: absolute;
+    width: 240px;
+    height: 160px;
+    left: 1065px;
+    top: 228px;
+    background: #FFFFFF;
+    border: 1px solid rgba(33, 63, 125, 0.06);
+    -webkit-box-shadow: 3px 5px 20px rgba(0, 0, 0, 0.04);
+            box-shadow: 3px 5px 20px rgba(0, 0, 0, 0.04);
+    border-radius: 4px;
+  }
+  .susers-icon {
+    margin-left: 36px;
+    margin-top: 25px;
+    position: absolute;
+  }
+  .susers1-icon {
+    margin-left: 46px;
+    margin-top: 45px;
+    position: absolute;
+  }
+  .susers2-icon {
+    margin-left: 46px;
+    margin-top: 40px;
+    position: absolute;
+  }
+  .susers3-icon {
+    margin-left: 46px;
+    margin-top: 35px;
+    position: absolute;
+  }
+  .susers4-icon {
+    margin-left: 56px;
+    margin-top: 45px;
+    position: absolute;
+  }
+  .susers5-icon {
+    margin-left: 52px;
+    margin-top: 40px;
+    position: absolute;
+  }
+  .susers6-icon {
+    margin-left: 52px;
+    margin-top: 38px;
+    position: absolute;
+  }
+  .susers7-icon {
+    margin-left: 52px;
+    margin-top: 35px;
+    position: absolute;
+  }
+  .susers {
+    position: absolute;
+    width: 153px;
+    height: 16px;
+    margin-left: 27px;
+    margin-top: 66px;
+    font-family: "Work Sans";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    text-transform: uppercase;
+    color: #545f7d;
+  }
+  .users-table {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    position: absolute;
+    width: 1037px;
+    height: 640px;
+    left: 267px;
+    top: 428px;
+    background: white;
+    border: 1px solid rgba(33, 63, 125, 0.06);
+    -webkit-box-shadow: 3px 5px 20px rgba(0, 0, 0, 0.04);
+            box-shadow: 3px 5px 20px rgba(0, 0, 0, 0.04);
+    border-radius: 4px;
+  }
+  .org1 {
+    position: absolute;
+    width: 90px;
+    height: 15px;
+    left: 40px;
+    top: 25px;
+    font-family: "Work Sans";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 14px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+    text-transform: uppercase;
+    color: #545f7d;
+  }
+  .dropdown1 {
+    position: absolute;
+    left: 147px;
+    top: 37px;
+  }
+  .username {
+    position: absolute;
+    width: 90px;
+    height: 15px;
+    left: 210px;
+    top: 25px;
+    font-family: "Work Sans";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 14px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+    text-transform: uppercase;
+    color: #545f7d;
+  }
+  .dropdown2 {
+    position: absolute;
+    left: 290px;
+    top: 37px;
+  }
+  .email {
+    position: absolute;
+    width: 90px;
+    height: 15px;
+    left: 350px;
+    top: 293px;
+    font-family: "Work Sans";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 14px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+    text-transform: uppercase;
+    color: #545f7d;
+    border: 0px;
+  }
+  .dropdown3 {
+    position: absolute;
+    left: 400px;
+    top: 37px;
+  }
+  .phone {
+    position: absolute;
+    width: 190px;
+    height: 15px;
+    left: 440px;
+    top: 23px;
+    font-family: "Work Sans";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 14px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+    text-transform: uppercase;
+    color: #545f7d;
+    border: 0px;
+  }
+  .dropdown4 {
+    position: absolute;
+    left: 550px;
+    top: 37px;
+  }
+  .date {
+    position: absolute;
+    width: 190px;
+    height: 15px;
+    left: 585px;
+    top: 23px;
+    font-family: "Work Sans";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 14px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+    text-transform: uppercase;
+    color: #545f7d;
+    border: 0px;
+  }
+  .dropdown5 {
+    position: absolute;
+    left: 672px;
+    top: 37px;
+  }
+  .status {
+    position: absolute;
+    width: 190px;
+    height: 15px;
+    left: 705px;
+    top: 23px;
+    font-family: "Work Sans";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 14px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+    text-transform: uppercase;
+    color: #545f7d;
+    border: 0px;
+  }
+  .dropdown6 {
+    position: absolute;
+    left: 757px;
+    top: 37px;
+  }
+  .org2 {
+    position: absolute;
+    width: 146px;
+    height: 17px;
+    left: 44px;
+    top: 60px;
+    font-family: "Work Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 75px;
+    color: #545f7d;
+  }
+  .org3 {
+    position: absolute;
+    width: 146px;
+    height: 17px;
+    left: 217px;
+    top: 60px;
+    font-family: "Work Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 75px;
+    color: #545f7d;
+  }
+  .org4 {
+    position: absolute;
+    width: 146px;
+    height: 17px;
+    left: 340px;
+    top: 60px;
+    font-family: "Work Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 75px;
+    color: #545f7d;
+  }
+  .org5 {
+    position: absolute;
+    width: 146px;
+    height: 17px;
+    left: 495px;
+    top: 60px;
+    font-family: "Work Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 75px;
+    color: #545f7d;
+  }
+  .org6 {
+    position: absolute;
+    width: 146px;
+    height: 17px;
+    left: 615px;
+    top: 60px;
+    font-family: "Work Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 75px;
+    color: #545f7d;
+  }
+  .org7 {
+    position: absolute;
+    width: 146px;
+    height: 17px;
+    left: 720px;
+    top: 60px;
+    font-family: "Work Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 75px;
+    color: #545f7d;
+  }
+  .status-btn {
+    border-radius: 100px;
+    height: 30px;
+    background-color: lightpink;
+    border: 0;
+  }
+  .dots-icon {
+    position: absolute;
+    left: 140px;
+    margin-top: -57px;
+    font-family: "Work Sans";
+    font-style: normal;
+    font-size: 16px;
+    color: #545f7d;
+    line-height: 75px;
+  }
+  .u-status {
+    visibility: hidden;
+    line-height: 58px;
+  }
+}
+
+@media (max-width: 780px) {
+  .title-users {
+    position: absolute;
+    width: 66px;
+    height: 28px;
+    margin-left: 83px;
+    margin-top: 25px;
+    font-family: "Work Sans";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    color: #213f7d;
+  }
+  .item1 {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    position: absolute;
+    width: 240px;
+    height: 160px;
+    left: 83px;
+    top: 75px;
+    background: #FFFFFF;
+    border: 1px solid rgba(33, 63, 125, 0.06);
+    -webkit-box-shadow: 3px 5px 20px rgba(0, 0, 0, 0.04);
+            box-shadow: 3px 5px 20px rgba(0, 0, 0, 0.04);
+    border-radius: 4px;
+  }
+  .usersn-icon {
+    margin-left: 25px;
+    margin-top: 15px;
+    position: absolute;
+  }
+  .usersn1-icon {
+    margin-left: 35px;
+    margin-top: 23px;
+    position: absolute;
+  }
+  .usersn2-icon {
+    margin-left: 44px;
+    margin-top: 23px;
+    position: absolute;
+  }
+  .usersn {
+    position: absolute;
+    width: 47px;
+    height: 16px;
+    margin-left: 27px;
+    margin-top: 66px;
+    font-family: "Work Sans";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    text-transform: uppercase;
+    color: #545f7d;
+  }
+  .usersn1 {
+    position: absolute;
+    width: 47px;
+    height: 16px;
+    margin-left: 29px;
+    margin-top: 96px;
+    font-family: "Work Sans";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 28px;
+    text-transform: uppercase;
+    color: #545f7d;
+  }
+  .item2 {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    position: absolute;
+    width: 240px;
+    height: 160px;
+    left: 83px;
+    top: 260px;
+    background: #FFFFFF;
+    border: 1px solid rgba(33, 63, 125, 0.06);
+    -webkit-box-shadow: 3px 5px 20px rgba(0, 0, 0, 0.04);
+            box-shadow: 3px 5px 20px rgba(0, 0, 0, 0.04);
+    border-radius: 4px;
+  }
+  .actusers-icon {
+    margin-left: 25px;
+    margin-top: 15px;
+    position: absolute;
+  }
+  .actusers1-icon {
+    margin-left: 33px;
+    margin-top: 22px;
+    position: absolute;
+  }
+  .item3 {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    position: absolute;
+    width: 240px;
+    height: 160px;
+    left: 83px;
+    top: 445px;
+    background: #FFFFFF;
+    border: 1px solid rgba(33, 63, 125, 0.06);
+    -webkit-box-shadow: 3px 5px 20px rgba(0, 0, 0, 0.04);
+            box-shadow: 3px 5px 20px rgba(0, 0, 0, 0.04);
+    border-radius: 4px;
+  }
+  .usersl-icon {
+    margin-left: 25px;
+    margin-top: 15px;
+    position: absolute;
+  }
+  .usersl1-icon {
+    margin-left: 36px;
+    margin-top: 25px;
+    position: absolute;
+  }
+  .usersl2-icon {
+    margin-left: 41px;
+    margin-top: 32px;
+    position: absolute;
+  }
+  .usersl {
+    position: absolute;
+    width: 139px;
+    height: 16px;
+    margin-left: 27px;
+    margin-top: 66px;
+    font-family: "Work Sans";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    text-transform: uppercase;
+    color: #545f7d;
+  }
+  .item4 {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    position: absolute;
+    width: 240px;
+    height: 160px;
+    left: 83px;
+    top: 630px;
+    background: #FFFFFF;
+    border: 1px solid rgba(33, 63, 125, 0.06);
+    -webkit-box-shadow: 3px 5px 20px rgba(0, 0, 0, 0.04);
+            box-shadow: 3px 5px 20px rgba(0, 0, 0, 0.04);
+    border-radius: 4px;
+  }
+  .susers-icon {
+    margin-left: 36px;
+    margin-top: 25px;
+    position: absolute;
+  }
+  .susers1-icon {
+    margin-left: 46px;
+    margin-top: 45px;
+    position: absolute;
+  }
+  .susers2-icon {
+    margin-left: 46px;
+    margin-top: 40px;
+    position: absolute;
+  }
+  .susers3-icon {
+    margin-left: 46px;
+    margin-top: 35px;
+    position: absolute;
+  }
+  .susers4-icon {
+    margin-left: 56px;
+    margin-top: 45px;
+    position: absolute;
+  }
+  .susers5-icon {
+    margin-left: 52px;
+    margin-top: 40px;
+    position: absolute;
+  }
+  .susers6-icon {
+    margin-left: 52px;
+    margin-top: 38px;
+    position: absolute;
+  }
+  .susers7-icon {
+    margin-left: 52px;
+    margin-top: 35px;
+    position: absolute;
+  }
+  .susers {
+    position: absolute;
+    width: 153px;
+    height: 16px;
+    margin-left: 27px;
+    margin-top: 66px;
+    font-family: "Work Sans";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    text-transform: uppercase;
+    color: #545f7d;
+  }
+  .users-table {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    position: absolute;
+    width: 385px;
+    height: 400px;
+    left: 17px;
+    top: 822px;
+    background: white;
+    border: 1px solid rgba(33, 63, 125, 0.06);
+    -webkit-box-shadow: 3px 5px 20px rgba(0, 0, 0, 0.04);
+            box-shadow: 3px 5px 20px rgba(0, 0, 0, 0.04);
+    border-radius: 4px;
+  }
+  .org1 {
+    position: absolute;
+    width: 50px;
+    height: 17px;
+    left: 20px;
+    top: 22px;
+    font-family: "Work Sans";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 6px;
+    line-height: 14px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+    text-transform: uppercase;
+    color: #545f7d;
+  }
+  .dropdown1 {
+    position: absolute;
+    width: 7px;
+    left: 72px;
+    top: 37px;
+  }
+  .username {
+    position: absolute;
+    width: 50px;
+    height: 17px;
+    left: 85px;
+    top: 22px;
+    font-family: "Work Sans";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 6px;
+    line-height: 14px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+    text-transform: uppercase;
+    color: #545f7d;
+  }
+  .dropdown2 {
+    position: absolute;
+    width: 7px;
+    left: 123px;
+    top: 37px;
+  }
+  .email {
+    position: absolute;
+    width: 50px;
+    height: 17px;
+    left: 136px;
+    top: -57px;
+    font-family: "Work Sans";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 6px;
+    line-height: 14px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+    text-transform: uppercase;
+    color: #545f7d;
+    border: 0px;
+  }
+  .dropdown3 {
+    position: absolute;
+    width: 7px;
+    left: 159px;
+    top: 36px;
+  }
+  .phone {
+    position: absolute;
+    width: 150px;
+    height: 15px;
+    left: 171px;
+    top: 29px;
+    font-family: "Work Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 6px;
+    line-height: 24px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+    text-transform: uppercase;
+    color: #545f7d;
+    border: 0px;
+  }
+  .dropdown4 {
+    position: absolute;
+    width: 7px;
+    left: 224px;
+    top: 36px;
+  }
+  .date {
+    position: absolute;
+    width: 150px;
+    height: 15px;
+    left: 236px;
+    top: 29px;
+    font-family: "Work Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 6px;
+    line-height: 24px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+    text-transform: uppercase;
+    color: #545f7d;
+    border: 0px;
+  }
+  .dropdown5 {
+    position: absolute;
+    width: 7px;
+    left: 278px;
+    top: 36px;
+  }
+  .status {
+    position: absolute;
+    width: 150px;
+    height: 15px;
+    left: 290px;
+    top: 29px;
+    font-family: "Work Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 6px;
+    line-height: 24px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+    text-transform: uppercase;
+    color: #545f7d;
+    border: 0px;
+  }
+  .dropdown6 {
+    position: absolute;
+    width: 7px;
+    left: 315px;
+    top: 36px;
+  }
+  .org2 {
+    position: absolute;
+    width: 115px;
+    height: 17px;
+    left: 20px;
+    top: 50px;
+    font-family: "Work Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 7px;
+    line-height: 40px;
+    color: #545f7d;
+  }
+  .org3 {
+    position: absolute;
+    width: 115px;
+    height: 17px;
+    left: 87px;
+    top: 50px;
+    font-family: "Work Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 7px;
+    line-height: 40px;
+    color: #545f7d;
+  }
+  .org4 {
+    position: absolute;
+    width: 115px;
+    height: 17px;
+    left: 139px;
+    top: 50px;
+    font-family: "Work Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 7px;
+    line-height: 40px;
+    color: #545f7d;
+  }
+  .org5 {
+    position: absolute;
+    width: 115px;
+    height: 17px;
+    left: 209px;
+    top: 50px;
+    font-family: "Work Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 7px;
+    line-height: 40px;
+    color: #545f7d;
+  }
+  .org6 {
+    position: absolute;
+    width: 115px;
+    height: 17px;
+    left: 260px;
+    top: 50px;
+    font-family: "Work Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 7px;
+    line-height: 40px;
+    color: #545f7d;
+  }
+  .org7 {
+    position: absolute;
+    width: 15px;
+    height: 17px;
+    left: 290px;
+    top: 50px;
+    font-family: "Work Sans";
+    font-style: normal;
+    font-weight: 200;
+    font-size: 7px;
+    line-height: 40px;
+    color: #545f7d;
+  }
+  .status-btn {
+    border-radius: 100px;
+    height: 30px;
+    left: 290px;
+    background-color: lightpink;
+    border: 0;
+  }
+  .dots-icon {
+    position: absolute;
+    left: 80px;
+    margin-top: -40px;
+    font-family: "Work Sans";
+    font-style: normal;
+    font-size: 16px;
+    color: #545f7d;
+    line-height: 75px;
+  }
+  .u-status {
+    visibility: hidden;
+    line-height: 34px;
+  }
+}
+/*# sourceMappingURL=Users.css.map */

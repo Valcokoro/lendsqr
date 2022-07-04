@@ -1,0 +1,1392 @@
+@import "../variables/variables.scss";
+
+
+@media(min-width: 480px){
+.icon-dashboard{
+  margin-left: 40px;  
+  margin-top: 30px;  
+  position: $absPosition;
+}
+.logo-dashboard{
+  margin-left: 75px;  
+  margin-top: 30px;  
+  position: $absPosition; 
+}
+.dashboard-search{
+  box-sizing: border-box;
+  position: $absPosition; 
+  width: 417px;
+  height: 50px;
+  margin-left: 335px;
+  margin-top: 30px;
+  opacity: 0.4;
+  border: 1px solid $blueColor;
+  border-radius: 8px; 
+  font-family: $titleFont2;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  color: $ashColor;
+}
+.search-btn{
+  position:  $absPosition;
+  height: 49px;
+  width:50px;
+  margin-left: 702px;
+  margin-top: 30px;
+  background: $greenColor;
+  border: 0px;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+.docs{
+  font-family: $titleFont3;
+  font-size: 16px;
+  line-height: 19px;
+  margin-left: 979px;
+  margin-top: 40px;
+  color: $blueColor;
+  position: $absPosition;
+}
+.bell{
+  position:  $absPosition;
+  margin-left: 1060px;
+  margin-top: 40px;
+  height: 19px;
+}
+.user-image{
+  position: $absPosition;
+  margin-left: 1120px;
+  margin-top: 35px;
+  width:48px;
+  height:30px;
+}
+.current-user{
+  position: $absPosition;
+  margin-left: 1170px;
+  margin-top: 38px;
+  font-family: $titleFont2;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: $blueColor;
+}
+.select{
+  border:0px;
+  margin-left: 1222px;
+  margin-top: 40px;
+}
+.organization-icon{
+  width:36px;
+  height: 27px;
+  position: $absPosition;
+  margin-top: 60px;
+  margin-left: 35px;
+}
+.sorganization1-icon{
+  width:36px;
+  height: 27px;
+  position: $absPosition;
+  margin-top: 45px;
+  margin-left: 35px;
+}
+.switch{
+  margin-top: 65px;
+  margin-left: 80px;
+  position: $absPosition;
+  width: 157px;
+  height: 19px;
+  font-family: $titleFont2;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: $blueColor;
+}
+.select-org{
+  border:0px;
+  position: $absPosition;
+  margin-top: 68px;
+  margin-left: 202px;
+}
+.dashboard-icon{
+  width:36px;
+  height: 27px;
+  position: $absPosition;
+  margin-top: 110px;
+  margin-left: 35px;
+}
+.dashboard1-icon{
+  width:36px;
+  height: 27px;
+  position: $absPosition;
+  margin-top: 100px;
+  margin-left: 35px;
+}
+.dashboard{
+  margin-top: 115px;
+  margin-left: 80px;
+  position: $absPosition;
+  width: 157px;
+  height: 19px;
+  font-family: $titleFont2;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: $blueColor;
+}
+.customers{
+  position: $absPosition;
+  width: 157px;
+  height: 19px;
+  margin-top: 195px;
+  margin-left: 38px;
+  font-family: $titleFont2;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14px;
+  color: $ashColor;
+}
+.users-icon{
+  width:36px;
+  height: 27px;
+  position: $absPosition;
+  margin-top: 230px;
+  margin-left: 33px;
+}
+.users1-icon{
+  width:36px;
+  height: 27px;
+  position: $absPosition;
+  margin-top: 230px;
+  margin-left: 40px;
+}
+.users{
+  position: absolute;
+  width: 44px;
+  height: 19px;
+  margin-top: 235px;
+  margin-left: 80px;
+  font-family: $titleFont2;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: $blueColor;
+}
+.guarantors-icon{
+  width:36px;
+  height: 27px;
+  position: $absPosition;
+  margin-top: 280px;
+  margin-left: 38px;
+}
+.guarantors1-icon{
+  width:36px;
+  height: 27px;
+  position: $absPosition;
+  margin-top: 280px;
+  margin-left: 38px;
+}
+.guarantors{
+  position: $absPosition;
+  width: 44px;
+  height: 19px;
+  margin-top: 285px;
+  margin-left: 80px;
+  font-family: $titleFont2;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: $blueColor;
+}
+.loans-icon{
+  width:36px;
+  height: 27px;
+  position: $absPosition;
+  margin-top: 332px;
+  margin-left: 38px;
+}
+.loans1-icon{
+  width:16px;
+  height: 27px;
+  position: $absPosition;
+  margin-top: 337px;
+  margin-left: 47px;
+}
+.loans{
+  position: $absPosition;
+  width: 44px;
+  height: 19px;
+  margin-top: 337px;
+  margin-left: 80px;
+  font-family: $titleFont2;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: $blueColor;
+}
+.handshake-icon{
+  width:36px;
+  height: 27px;
+  position: $absPosition;
+  margin-top: 382px;
+  margin-left: 38px;
+}
+.decision{
+  position: $absPosition;
+  width: 128px;
+  height: 19px;
+  margin-top: 382px;
+  margin-left: 82px;
+  font-family: $titleFont2;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: $blueColor;
+}
+.savings-icon{
+  width:36px;
+  height: 27px;
+  position: $absPosition;
+  margin-top: 427px;
+  margin-left: 38px;
+}
+.savings1-icon{
+  width:36px;
+  height: 27px;
+  position: $absPosition;
+  margin-top: 418px;
+  margin-left: 32px;
+}
+.savings{
+  position: $absPosition;
+  width: 128px;
+  height: 19px;
+  margin-top: 427px;
+  margin-left: 82px;
+  font-family: $titleFont2;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: $blueColor;
+}
+.requests-icon{
+  width:25px;
+  height: 27px;
+  position: $absPosition;
+  margin-top: 467px;
+  margin-left: 40px;
+}
+.requests1-icon{
+  width:25px;
+  height: 27px;
+  position: $absPosition;
+  margin-top: 479px;
+  margin-left: 44px;
+}
+.requests{
+  position: $absPosition;
+  width: 128px;
+  height: 19px;
+  margin-top: 474px;
+  margin-left: 82px;
+  font-family: $titleFont2;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: $blueColor;
+}
+.whitelist-icon{
+  width:25px;
+  height: 27px;
+  position: $absPosition;
+  margin-top: 512px;
+  margin-left: 40px;
+}
+.whitelist{
+  position: $absPosition;
+  width: 128px;
+  height: 19px;
+  margin-top: 517px;
+  margin-left: 82px;
+  font-family: $titleFont2;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: $blueColor;
+}
+.karma-icon{
+  width:25px;
+  height: 27px;
+  position: $absPosition;
+  margin-top: 552px;
+  margin-left: 40px;
+}
+.karma{
+  position: $absPosition;
+  width: 128px;
+  height: 19px;
+  margin-top: 560px;
+  margin-left: 82px;
+  font-family: $titleFont2;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: $blueColor;
+}
+a{
+  text-decoration: none;
+}
+.businesses{
+   position: $absPosition;
+   width: 157px;
+   height: 19px;
+   margin-top: 620px;
+   margin-left: 38px;
+   font-family: $titleFont2;
+   font-style: normal;
+   font-weight: 500;
+   font-size: 12px;
+   line-height: 14px;
+   color: $ashColor;
+}
+.organization1-icon{
+   width:25px;
+   height: 27px;
+   position: $absPosition;
+   margin-top: 645px;
+   margin-left: 40px;
+}
+.organization2-icon{
+   width:25px;
+   height: 27px;
+   position: $absPosition;
+   margin-top: 655px;
+   margin-left: 40px;
+}
+.organization1{
+   position: $absPosition;
+   width: 128px;
+   height: 19px;
+   margin-top: 655px;
+   margin-left: 79px;
+   font-family: $titleFont2;
+   font-style: normal;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 19px;
+   color: $blueColor;
+}
+.loan-products{
+   width:25px;
+   height: 27px;
+   position: $absPosition;
+   margin-top: 685px;
+   margin-left: 40px;
+}
+.loan-products1{
+   width:25px;
+   height: 27px;
+   position: $absPosition;
+   margin-top: 695px;
+   margin-left: 45px;
+}
+.products{
+   position: $absPosition;
+   width: 128px;
+   height: 19px;
+   margin-top: 695px;
+   margin-left: 79px;
+   font-family: $titleFont2;
+   font-style: normal;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 19px;
+   color: $blueColor;
+}
+.savings-products{
+   width:25px;
+   height: 27px;
+   position: $absPosition;
+   margin-top: 720px;
+   margin-left: 40px;
+}
+.savings-products1{
+   width:25px;
+   height: 27px;
+   position: $absPosition;
+   margin-top: 726px;
+   margin-left: 40px;
+}
+.savings-product{
+   position: $absPosition;
+   width: 128px;
+   height: 19px;
+   margin-top: 725px;
+   margin-left: 79px;
+   font-family: $titleFont2;
+   font-style: normal;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 19px;
+   color: $blueColor;
+}
+.fees{
+   width:25px;
+   height: 27px;
+   position: $absPosition;
+   margin-top: 750px;
+   margin-left: 40px;
+}
+.fees-charges{
+  position: $absPosition;
+  width: 128px;
+  height: 19px;
+  margin-top: 758px;
+  margin-left: 79px;
+  font-family: $titleFont2;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: $blueColor;
+}
+.transactions-icon{
+  width:25px;
+  height: 27px;
+  position: $absPosition;
+  margin-top: 790px;
+  margin-left: 40px;
+}
+.transactions1-icon{
+  width:25px;
+  height: 27px;
+  position: $absPosition;
+  margin-top: 790px;
+  margin-left: 50px;
+}
+.transactions2-icon{
+  width:25px;
+  height: 27px;
+  position: $absPosition;
+  margin-top: 785px;
+  margin-left: 42px;
+}
+.transactions{
+  position: $absPosition;
+  width: 128px;
+  height: 19px;
+  margin-top: 790px;
+  margin-left: 77px;
+  font-family: $titleFont2;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: $blueColor;
+}
+.services-icon{
+  width:25px;
+  height: 27px;
+  position: $absPosition;
+  margin-top: 825px;
+  margin-left: 42px;
+}
+.services{
+  position: $absPosition;
+  width: 128px;
+  height: 19px;
+  margin-top: 825px;
+  margin-left: 77px;
+  font-family: $titleFont2;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: $blueColor;
+}
+.saccount-icon{
+  width:25px;
+  height: 27px;
+  position: $absPosition;
+  margin-top: 860px;
+  margin-left: 42px;
+}
+.saccount1-icon{
+  width:15px;
+  height: 27px;
+  position: $absPosition;
+  margin-top: 866px;
+  margin-left: 59px;
+}
+.service-account{
+  position: $absPosition;
+  width: 128px;
+  height: 19px;
+  margin-top: 860px;
+  margin-left: 77px;
+  font-family: $titleFont2;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: $blueColor;
+}
+.settlements-icon{
+  width:15px;
+  height: 27px;
+  position: $absPosition;
+  margin-top: 900px;
+  margin-left: 50px;
+}
+.settlements1-icon{
+  width:15px;
+  height: 27px;
+  position: $absPosition;
+  margin-top: 900px;
+  margin-left: 50px;
+}
+.settlements{
+  position: $absPosition;
+  width: 128px;
+  height: 19px;
+  margin-top: 902px;
+  margin-left: 77px;
+  font-family: $titleFont2;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: $blueColor;
+}
+.reports-icon{
+  width:15px;
+  height: 27px;
+  position: $absPosition;
+  margin-top: 930px;
+  margin-left: 50px;
+}
+.reports1-icon{
+  width:15px;
+  height: 27px;
+  position: $absPosition;
+  margin-top: 932px;
+  margin-left: 50px;
+}
+.reports{
+  position: $absPosition;
+  width: 128px;
+  height: 19px;
+  margin-top: 932px;
+  margin-left: 77px;
+  font-family: $titleFont2;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: $blueColor;
+}
+.settings{
+   position: $absPosition;
+   width: 157px;
+   height: 19px;
+   margin-top: 980px;
+   margin-left: 38px;
+   font-family: $titleFont2;
+   font-style: normal;
+   font-weight: 500;
+   font-size: 12px;
+   line-height: 14px;
+   color: $ashColor;
+}
+.preferences-icon{
+   width:15px;
+   height: 27px;
+   position: $absPosition;
+   margin-top: 1000px;
+   margin-left: 50px;
+}
+.preferences1-icon{
+  width:15px;
+  height: 27px;
+  position: $absPosition;
+  margin-top: 1005px;
+  margin-left: 50px;
+}
+.preferences{
+   position: $absPosition;
+   width: 157px;
+   height: 19px;
+   margin-top: 1010px;
+   margin-left: 76px;
+   font-family: $titleFont2;
+   font-style: normal;
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 14px;
+   color: $blueColor;
+}
+.pricing-icon{
+   width:20px;
+   height: 27px;
+   position: $absPosition;
+   margin-top: 1037px;
+   margin-left: 50px;
+}
+.pricing1-icon{
+  width:10px;
+  height: 27px;
+  position: $absPosition;
+  margin-top: 1037px;
+  margin-left: 55px;
+}
+.pricing{
+   position: $absPosition;
+   width: 157px;
+   height: 19px;
+   margin-top: 1042px;
+   margin-left: 76px;
+   font-family: $titleFont2;
+   font-style: normal;
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 14px;
+   color: $blueColor;
+}
+.audit-icon{
+   width:20px;
+   height: 27px;
+   position: $absPosition;
+   margin-top: 1080px;
+   margin-left: 50px;
+}
+.audit1-icon{
+  width:20px;
+  height: 27px;
+  position: $absPosition;
+  margin-top: 1084px;
+  margin-left: 49px;
+}
+.audit{
+  position: $absPosition;
+   width: 157px;
+   height: 19px;
+   margin-top: 1084px;
+   margin-left: 76px;
+   font-family: $titleFont2;
+   font-style: normal;
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 14px;
+   color: $blueColor;
+}
+}
+
+
+
+
+
+
+@media(max-width: 780px){
+.icon-dashboard{
+    margin-left: 30px;  
+    margin-top: 40px;  
+    position: $absPosition;
+    width: 20.75px;
+ }
+.logo-dashboard{
+    margin-left: 60px;  
+    margin-top: 40px;  
+    position: $absPosition;
+    width: 118.44px;
+  }
+.dashboard-search{
+   box-sizing: border-box;
+   position: $absPosition; 
+   width: 347px;
+   height: 50px;
+   margin-left: 30px;
+   margin-top: 90px;
+   opacity: 0.4;
+   border: 1px solid $blueColor;
+   border-radius: 8px; 
+   font-family: $titleFont2;
+   font-style: normal;
+   font-weight: 400;
+   font-size: 14px;
+   line-height: 16px;
+   color: $ashColor;
+  }
+  .search-btn{
+   position:  $absPosition;
+   height: 49px;
+   width:50px;
+   margin-left: 330px;
+   margin-top: 90px;
+   background: $greenColor;
+   border: 0px;
+   border-top-right-radius: 8px;
+   border-bottom-right-radius: 8px;
+  }
+  .docs{
+   font-family: $titleFont3;
+   font-size: 16px;
+   line-height: 19px;
+   margin-left: 190px;
+   margin-top: 15px;
+   color: $blueColor;
+   position: $absPosition;
+  }
+  .bell{
+   position:  $absPosition;
+   margin-left: 245px;
+   margin-top: 15px;
+   height: 19px;
+  }
+  .user-image{
+    position: $absPosition;
+    margin-left: 270px;
+    margin-top: 15px;
+    width:38px;
+    height:20px;
+  }
+  .current-user{
+    position: $absPosition;
+    margin-left: 305px;
+    margin-top: 15px;
+    font-family: $titleFont2;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: $blueColor;
+  }
+  .select{
+    border:0px;
+    margin-left: 355px;
+    margin-top: 18px;
+  }
+  .organization-icon{
+    position: $absPosition;
+    width:36px;
+    height: 27px;
+    margin-top: 135px;
+    margin-left: 92px;
+  }
+  .sorganization1-icon{
+    position: $absPosition;
+    width:36px;
+    height: 27px;
+    margin-top: 120px;
+    margin-left: 92px;
+  }
+  .switch{
+    position: $absPosition;
+    margin-top: 140px;
+    margin-left: 135px;
+    width: 157px;
+    height: 19px;
+    font-family: $titleFont2;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #213F7D;
+  }
+  .select-org{
+    visibility: hidden;
+  }
+  .dashboard-icon{
+    position: $absPosition;
+    width:36px;
+    height: 27px;
+    margin-top: -4898px;
+    margin-left: 92px;
+  }
+  .dashboard1-icon{
+    position: $absPosition;
+    width:36px;
+    height: 27px;
+    margin-top: -4908px;
+    margin-left: 92px;
+  }
+  .dashboard{
+    margin-top: -4894px;
+    margin-left: 137px;
+    position: $absPosition;
+    width: 157px;
+    height: 19px;
+    font-family: $titleFont2;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: $blueColor;
+  }
+  .customers{
+    position: $absPosition;
+    width: 157px;
+    height: 19px;
+    margin-top: -4834px;
+    margin-left: 70px;
+    font-family: $titleFont2;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    color: $ashColor;
+  }
+  .users-icon{
+    width:36px;
+    height: 27px;
+    position: $absPosition;
+    margin-top: -4804px;
+    margin-left: 92px;
+  }
+  .users1-icon{
+    width:36px;
+    height: 27px;
+    position: $absPosition;
+    margin-top: -4804px;
+    margin-left: 100px;
+  }
+  .users{
+    position: $absPosition;
+    width: 44px;
+    height: 19px;
+    margin-top: -4798px;
+    margin-left: 140px;
+    font-family: $titleFont2;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: $blueColor;
+  }
+  .guarantors-icon{
+    width:36px;
+    height: 27px;
+    position: $absPosition;
+    margin-top: -4760px;
+    margin-left: 97px;
+  }
+  .guarantors1-icon{
+    width:36px;
+    height: 27px;
+    position: $absPosition;
+    margin-top: -4760px;
+    margin-left: 97px;
+  }
+  .guarantors{
+    position: $absPosition;
+    width: 44px;
+    height: 19px;
+    margin-top: -4758px;
+    margin-left: 142px;
+    font-family: $titleFont2;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: $blueColor;
+  }
+  .loans-icon{
+    width:36px;
+    height: 27px;
+    position: $absPosition;
+    margin-top: -4715px;
+    margin-left: 97px;
+  }
+  .loans1-icon{
+    width:18px;
+    height: 27px;
+    position: $absPosition;
+    margin-top: -4710px;
+    margin-left: 105px;
+  }
+  .loans{
+    position: $absPosition;
+    width: 44px;
+    height: 19px;
+    margin-top: -4710px;
+    margin-left: 142px;
+    font-family: $titleFont2;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: $blueColor;
+  }
+  .handshake-icon{
+    width:30px;
+    height: 27px;
+    position: $absPosition;
+    margin-top: -4677px;
+    margin-left: 105px;
+  }
+  .decision{
+    position: $absPosition;
+    width: 128px;
+    height: 19px;
+    margin-top: -4673px;
+    margin-left: 142px;
+    font-family: $titleFont2;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: $blueColor;
+  }
+  .savings-icon{
+    width:30px;
+    height: 27px;
+    position: $absPosition;
+    margin-top: -4639px;
+    margin-left: 105px;
+  }
+  .savings1-icon{
+    width:30px;
+    height: 27px;
+    position: $absPosition;
+    margin-top: -4647px;
+    margin-left: 100px;
+  }
+  .savings{
+    position: $absPosition;
+    width: 128px;
+    height: 19px;
+    margin-top: -4637px;
+    margin-left: 145px;
+    font-family: $titleFont2;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: $blueColor;
+  }
+  .requests-icon{
+    width:30px;
+    height: 27px;
+    position: $absPosition;
+    margin-top: -4607px;
+    margin-left: 105px;
+  }
+  .requests1-icon{
+    width:30px;
+    height: 27px;
+    position: $absPosition;
+    margin-top: -4594px;
+    margin-left: 110px;
+  }
+  .requests{
+    position: $absPosition;
+    width: 128px;
+    height: 19px;
+    margin-top: -4605px;
+    margin-left: 145px;
+    font-family: $titleFont2;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: $blueColor;
+  }
+  .whitelist-icon{
+    width:30px;
+    height: 27px;
+    position: $absPosition;
+    margin-top: -4564px;
+    margin-left: 110px;
+  }
+  .whitelist{
+    position: $absPosition;
+    width: 128px;
+    height: 19px;
+    margin-top: -4564px;
+    margin-left: 145px;
+    font-family: $titleFont2;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: $blueColor;
+  }
+  .karma-icon{
+    width:30px;
+    height: 27px;
+    position: $absPosition;
+    margin-top: -4524px;
+    margin-left: 110px;
+  }
+  .karma{
+    position: $absPosition;
+    width: 128px;
+    height: 19px;
+    margin-top: -4524px;
+    margin-left: 147px;
+    font-family: $titleFont2;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: $blueColor;
+  }
+  a{
+    text-decoration: none;
+  }
+  .businesses{
+    position: $absPosition;
+    width: 157px;
+    height: 19px;
+    margin-top: -4470px;
+    margin-left: 70px;
+    font-family: $titleFont2;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    color: $ashColor;
+ }
+ .organization1-icon{
+    width:30px;
+    height: 27px;
+    position: $absPosition;
+    margin-top: -4450px;
+    margin-left: 110px;
+}
+.organization2-icon{
+   width:30px;
+   height: 27px;
+   position: $absPosition;
+   margin-top: -4440px;
+   margin-left: 110px;
+}
+.organization1{
+  position: $absPosition;
+   width: 128px;
+   height: 19px;
+   margin-top: -4440px;
+   margin-left: 150px;
+   font-family: $titleFont2;
+   font-style: normal;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 19px;
+   color: $blueColor;
+}
+.loan-products{
+   width:30px;
+   height: 27px;
+   position: $absPosition;
+   margin-top: -4400px;
+   margin-left: 110px;
+}
+.loan-products1{
+   width:30px;
+   height: 27px;
+   position: $absPosition;
+   margin-top: -4390px;
+   margin-left: 110px;
+}
+.products{
+   position: $absPosition;
+   width: 128px;
+   height: 19px;
+   margin-top: -4395px;
+   margin-left: 150px;
+   font-family: $titleFont2;
+   font-style: normal;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 19px;
+   color: $blueColor;
+}
+.savings-products{
+  width:30px;
+  height: 27px;
+  position: $absPosition;
+  margin-top: -4365px;
+  margin-left: 110px;
+}
+.savings-products1{
+  width:30px;
+  height: 27px;
+  position: $absPosition;
+  margin-top: -4358px;
+  margin-left: 110px;
+}
+.savings-product{
+   position: $absPosition;
+   width: 128px;
+   height: 19px;
+   margin-top: -4358px;
+   margin-left: 150px;
+   font-family: $titleFont2;
+   font-style: normal;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 19px;
+   color: $blueColor;
+}
+.fees{
+   width:30px;
+   height: 27px;
+   position: $absPosition;
+   margin-top: -4328px;
+   margin-left: 110px
+}
+.fees-charges{
+   position: $absPosition;
+   width: 128px;
+   height: 19px;
+   margin-top: -4325px;
+   margin-left: 150px;
+   font-family: $titleFont2;
+   font-style: normal;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 19px;
+   color: $blueColor;
+}
+.transactions-icon{
+   width:30px;
+   height: 27px;
+   position: $absPosition;
+   margin-top: -4290px;
+   margin-left: 110px
+}
+.transactions1-icon{
+   width:30px;
+   height: 27px;
+   position: $absPosition;
+   margin-top: -4288px;
+   margin-left: 118px
+}
+.transactions2-icon{
+   width:30px;
+   height: 27px;
+   position: $absPosition;
+   margin-top: -4293px;
+   margin-left: 113px
+}
+.transactions{
+   position: $absPosition;
+   width: 128px;
+   height: 19px;
+   margin-top: -4293px;
+   margin-left: 150px;
+   font-family: $titleFont2;
+   font-style: normal;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 19px;
+   color: $blueColor;
+}
+.services-icon{
+   width:30px;
+   height: 27px;
+   position: $absPosition;
+   margin-top: -4253px;
+   margin-left: 113px
+}
+.services{
+   position: $absPosition;
+   width: 128px;
+   height: 19px;
+   margin-top: -4253px;
+   margin-left: 150px;
+   font-family: $titleFont2;
+   font-style: normal;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 19px;
+   color: $blueColor;
+}
+.saccount-icon{
+   width:30px;
+   height: 27px;
+   position: $absPosition;
+   margin-top: -4220px;
+   margin-left: 110px;
+}
+.saccount1-icon{
+   width:15px;
+   height: 27px;
+   position: $absPosition;
+   margin-top: -4215px;
+   margin-left: 129px;
+}
+.service-account{
+   position: $absPosition;
+   width: 128px;
+   height: 19px;
+   margin-top: -4215px;
+   margin-left: 150px;
+   font-family: $titleFont2;
+   font-style: normal;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 19px;
+   color: $blueColor;
+}
+.settlements-icon{
+  width:30px;
+   height: 27px;
+   position: $absPosition;
+   margin-top: -4180px;
+   margin-left: 110px;
+}
+.settlements1-icon{
+   width:30px;
+   height: 27px;
+   position: $absPosition;
+   margin-top: -4180px;
+   margin-left: 110px;
+}
+.settlements{
+   position: $absPosition;
+   width: 128px;
+   height: 19px;
+   margin-top: -4180px;
+   margin-left: 150px;
+   font-family: $titleFont2;
+   font-style: normal;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 19px;
+   color: $blueColor;
+}
+.reports-icon{
+   width:30px;
+   height: 27px;
+   position: $absPosition;
+   margin-top: -4140px;
+   margin-left: 110px;
+}
+.reports1-icon{
+   width:30px;
+   height: 27px;
+   position: $absPosition;
+   margin-top: -4140px;
+   margin-left: 110px;
+}
+.reports{
+   position: $absPosition;
+   width: 128px;
+   height: 19px;
+   margin-top: -4140px;
+   margin-left: 150px;
+   font-family: $titleFont2;
+   font-style: normal;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 19px;
+   color: $blueColor;
+}
+.settings{
+   position: $absPosition;
+   width: 157px;
+   height: 19px;;
+   margin-top: -4080px;
+   margin-left: 80px;
+   font-family: $titleFont2;
+   font-style: normal;
+   font-weight: 500;
+   font-size: 12px;
+   line-height: 14px;
+   color: $ashColor;
+}
+.preferences-icon{
+   width:30px;
+   height: 27px;
+   position: $absPosition;
+   margin-top: -4055px;
+   margin-left: 110px;
+}
+.preferences1-icon{
+   width:30px;
+   height: 27px;
+   position: $absPosition;
+   margin-top: -4055px;
+   margin-left: 110px;
+}
+.preferences{
+   position: $absPosition;
+   width: 128px;
+   height: 19px;
+   margin-top: -4055px;
+   margin-left: 150px;
+   font-family: $titleFont2;
+   font-style: normal;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 19px;
+   color: $blueColor;
+}
+.pricing-icon{
+   width:30px;
+   height: 27px;
+   position: $absPosition;
+   margin-top: -4017px;
+   margin-left: 110px;
+}
+.pricing1-icon{
+  width:15px;
+  height: 27px;
+  position: $absPosition;
+  margin-top: -4017px;
+  margin-left: 117px;
+}
+.pricing{
+   position: $absPosition;
+   width: 128px;
+   height: 19px;
+   margin-top: -4017px;
+   margin-left: 150px;
+   font-family: $titleFont2;
+   font-style: normal;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 19px;
+   color: $blueColor;
+}
+.audit-icon{
+   width:30px;
+   height: 27px;
+   position: $absPosition;
+   margin-top: -3980px;
+   margin-left: 110px;
+}
+.audit1-icon{
+   width:30px;
+   height: 27px;
+   position: $absPosition;
+   margin-top: -3975px;
+   margin-left: 110px;
+}
+.audit{
+   position: $absPosition;
+   width: 128px;
+   height: 19px;
+   margin-top: -3975px;
+   margin-left: 150px;
+   font-family: $titleFont2;
+   font-style: normal;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 19px;
+   color: $blueColor;
+}
+}

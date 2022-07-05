@@ -19,7 +19,7 @@ render(){
           <UsersNumber/>
           </div>
           <div className='flex2'>
-            <UsersTable/>
+          <UsersTable/>
           </div>
           </div>
         </section>

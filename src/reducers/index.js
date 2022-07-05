@@ -13,7 +13,7 @@ const usersReducer = (users=[], action) =>{
 
 const userdetailsReducer = (users=[], action) =>{
     if(action.type === FETCH_USERDETAILS){
-     return  [...users, ...action.payload]
+     return  [users, ...action.payload]
     }
      return users;
  }

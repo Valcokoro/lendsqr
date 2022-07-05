@@ -12,9 +12,9 @@ class GeneralDetails extends React.Component{
 
     
     renderName(){
-        return this.props.users.map(user => {
+        return this.props.users.map((user, index) => {
             return(
-             <div className='show-name1'>
+             <div className='show-name1' key={index}>
                {user.username}
              </div>
            )
@@ -22,9 +22,9 @@ class GeneralDetails extends React.Component{
     }
 
     renderPhone(){
-        return this.props.users.map(user => {
+        return this.props.users.map((user, index) => {
             return(
-             <div className='show-phone1'>
+             <div className='show-phone1' key={index}>
                {user.phone_number}
              </div>
            )
@@ -32,9 +32,9 @@ class GeneralDetails extends React.Component{
     }
   
     renderEmail(){
-        return this.props.users.map(user => {
+        return this.props.users.map((user,index) => {
             return(
-             <div className='show-email1'>
+             <div className='show-email1' key={index}>
                {user.email}
              </div>
            )
@@ -43,6 +43,7 @@ class GeneralDetails extends React.Component{
 
     
     render(){
+         console.log(this.props.users)
         return (
             <div className='GeneralDetails'>
                <div className='grid-container'>
@@ -91,7 +92,7 @@ class GeneralDetails extends React.Component{
 
 const mapStateToProps = (state) =>{
     return { 
-        users: (state.users)
+        users: (state.userdetails)
        }
   };
   

@@ -19,5 +19,5 @@ export const fetchUserDetails = () => async dispatch => {
     const response = await users.get('/users');
     
     
-    dispatch ({ type: FETCH_USERDETAILS, payload: response.data.slice(0,1)});
+    dispatch ({ type: FETCH_USERDETAILS, payload: response.data.slice(0, 1)});
 };

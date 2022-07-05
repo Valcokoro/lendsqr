@@ -19,9 +19,9 @@ class UserDetails extends React.Component{
 
 
     renderName(){
-        return this.props.users.map(user => {
+        return this.props.users.map((user, index) => {
             return(
-             <div className='show-name' key={user.password}>
+             <div className='show-name' key={index}>
                {user.username}
              </div>
            )
@@ -29,9 +29,9 @@ class UserDetails extends React.Component{
     }
 
     renderCode(){
-        return this.props.users.map(user => {
+        return this.props.users.map((user, index) => {
             return(
-             <div className='show-code' key={user.password}>
+             <div className='show-code' key={index}>
                {user.password}
              </div>
            )
@@ -41,6 +41,7 @@ class UserDetails extends React.Component{
 
 
     render(){
+        console.log(this.props.users);
         return (
             <div className='UserDetails'>
                <a href='/users' className='back-to-users'>
@@ -81,7 +82,7 @@ class UserDetails extends React.Component{
 
 const mapStateToProps = (state) =>{
     return { 
-        users: (state.users)
+        users: (state.userdetails)
        }
   };
   

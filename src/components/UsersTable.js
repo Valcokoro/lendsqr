@@ -90,7 +90,7 @@ import dots from '../assets/dots.svg';
 
        render(){
            return (
-            <div className='flex'>
+            <section className='flex'>
               <table className='users-table'>
                 <tbody>
                 <tr>
@@ -144,7 +144,7 @@ import dots from '../assets/dots.svg';
               </tr>
               </tbody>
              </table>
-            </div>
+            </section>
             
            )
        }

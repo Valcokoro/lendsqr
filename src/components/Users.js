@@ -12,8 +12,8 @@ class Users extends React.Component{
 render(){
     
     return (
-        <div className='Users'>
-          <p className='title-users'>Users</p> 
+        <section className='Users'>
+          <h1 className='title-users'>Users</h1> 
           <div className='flex-container'>
           <div className='flex1'>
           <UsersNumber/>
@@ -22,7 +22,7 @@ render(){
             <UsersTable/>
           </div>
           </div>
-        </div>
+        </section>
     )
 }
 

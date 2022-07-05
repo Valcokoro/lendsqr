@@ -21,7 +21,7 @@ class UserDetails extends React.Component{
     renderName(){
         return this.props.users.map(user => {
             return(
-             <div className='show-name'>
+             <div className='show-name' key={user.password}>
                {user.username}
              </div>
            )
@@ -31,7 +31,7 @@ class UserDetails extends React.Component{
     renderCode(){
         return this.props.users.map(user => {
             return(
-             <div className='show-code'>
+             <div className='show-code' key={user.password}>
                {user.password}
              </div>
            )
@@ -50,7 +50,7 @@ class UserDetails extends React.Component{
                <p className='user-details'>User Details</p>
                <button className='blacklist-user'>BLACKLIST USER</button>
                <button className='activate-user'>ACTIVATE USER</button>
-               <div className='grid-container'>
+               <div className='flex-container'>
                   <div className='item1'>
                     <img src={circle} alt='circle' className='circle-icon'/>
                     <img src={person} alt='person' className='person-icon'/>

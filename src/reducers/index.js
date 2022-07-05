@@ -1,5 +1,6 @@
 import { combineReducers } from "redux";
 import {FETCH_USERS} from '../actions/types';
+import {FETCH_USERDETAILS} from '../actions/types';
 
 
 
@@ -11,7 +12,7 @@ const usersReducer = (users=[], action) =>{
 }
 
 const userdetailsReducer = (users=[], action) =>{
-    if(action.type === FETCH_USERS){
+    if(action.type === FETCH_USERDETAILS){
      return  [...users, ...action.payload]
     }
      return users;

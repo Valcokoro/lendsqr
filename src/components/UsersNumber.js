@@ -20,6 +20,7 @@ import susers6 from '../assets/susers6.svg';
 class UsersNumber extends React.Component{
     render(){
         return (
+           
             <div className='flex-container'>
               <div className='item0'>
                 <img src={usersn} alt='users number' className='usersn-icon'/>

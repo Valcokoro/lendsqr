@@ -8,16 +8,16 @@ import { FETCH_USERDETAILS } from './types';
 export const fetchUsers = () => async dispatch => {
         
     const response = await users.get('/users');
-    const result = response.data.slice(0, 7)
     
-    dispatch ({ type: FETCH_USERS, payload: result});
+    
+    dispatch ({ type: FETCH_USERS, payload: response.data.slice(0,1)});
 };
 
 
 export const fetchUserDetails = () => async dispatch => {
         
     const response = await users.get('/users');
-    const result = response.data.slice(0, 1)
     
-    dispatch ({ type: FETCH_USERS, payload: result});
+    
+    dispatch ({ type: FETCH_USERDETAILS, payload: response.data.slice(0,1)});
 };

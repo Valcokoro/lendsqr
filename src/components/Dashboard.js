@@ -1,6 +1,4 @@
 import React from 'react';
-import {connect} from 'react-redux';
-import {fetchUsers} from '../actions';
 import { Link } from 'react-router-dom';
 import '../styles/Dashboard.css';
 import icon from '../assets/icon.svg';
@@ -49,14 +47,10 @@ import audit1 from '../assets/audit1.svg';
 
 
 class Dashboard extends React.Component{
-  componentDidMount(){
-    this.props.fetchUsers();
-  }
-   
+  
    
 
     render(){
-      console.log(this.props.users)
         return (
         <section>
           <div>
@@ -159,11 +153,7 @@ class Dashboard extends React.Component{
 
 
 
-const mapStateToProps = (state) =>{
-  return { 
-      users: (state.users)
-     }
-};
 
-export default connect(mapStateToProps, {fetchUsers})(Dashboard);
+
+export default Dashboard;
 

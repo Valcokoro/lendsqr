@@ -53,15 +53,7 @@ class Dashboard extends React.Component{
     this.props.fetchUsers();
   }
    
-    renderUsers(){
-       return this.props.users.map(user => {
-         return(
-          <select className='select-org'>
-            <option value={user.organization}>{user.organization}</option>
-          </select>
-        )
-      });
-  }
+   
 
     render(){
       console.log(this.props.users)
@@ -91,7 +83,9 @@ class Dashboard extends React.Component{
             <img src={sorganization} alt='organization icon' className='organization-icon'/>
             <img src={sorganization1} alt='organization icon' className='sorganization1-icon'/>
             <p className='switch'>Switch Organization</p>
-            <div>{this.renderUsers()}</div>
+            <select className='select-org'>
+            <option value={user.organization}></option>
+          </select>
             <img src={dashboard} alt='dashboard icon' className='dashboard-icon'/>
             <img src={dashboard1} alt='dashboard icon' className='dashboard1-icon'/>
             <a href='/dashboard' className='dashboard'>Dashboard</a>
@@ -155,6 +149,7 @@ class Dashboard extends React.Component{
             <img src={audit1} alt='audit icon' className='audit1-icon'/>
             <a href='/dashboard' className='audit'>Audit Logs</a>
            </div>
+           {this.props.children}
         </section>
         )
     }

@@ -1,4 +1,5 @@
 import React from 'react';
+import '../styles/UsersNumber.css';
 import usersn from '../assets/usersn.svg';
 import usersn1 from '../assets/usersn1.svg';
 import usersn2 from '../assets/usersn2.svg';
@@ -19,20 +20,22 @@ import susers6 from '../assets/susers6.svg';
 class UsersNumber extends React.Component{
     render(){
         return (
-            <div className='grid-container'>
-              <div className="item1">
+            <div className='flex-container'>
+              <div className='item0'>
                 <img src={usersn} alt='users number' className='usersn-icon'/>
                 <img src={usersn1} alt='users number' className='usersn1-icon'/>
                 <img src={usersn2} alt='users number' className='usersn2-icon'/>
                 <p className='usersn'>Users</p>
                 <p className='usersn1'>2,453</p>
-              </div>
-              <div className="item2">
+             </div>
+              
+              <div className='item'>
               <img src={actusers} alt='active users' className='actusers-icon'/>
               <img src={actusers1} alt='active users' className='actusers1-icon'/>
               <p className='usersn'>Users</p>
               <p className='usersn1'>2,453</p>
               </div>
+             
               <div className="item3">
                <img src={usersl} alt='users with loan' className='usersl-icon'/>
                <img src={usersl1} alt='users with loan' className='usersl1-icon'/>

@@ -5,6 +5,8 @@ import Dashboard from './components/Dashboard';
 import Users from './components/Users';
 import UsersNumber from './components/UsersNumber';
 import UserDetails from './components/UserDetails';
+import UsersTable from './components/UsersTable';
+import Navbar from './components/Navbar/Navbar';
 import GeneralDetails from './components/GeneralDetails';
 
 
@@ -12,16 +14,27 @@ const App = () => {
   return (
     <div className="App">
       <BrowserRouter>
-       <div>
-       <Switch>
-       <Route path='/' exact component={LoginPage} />
-       <Route path='/dashboard'  component={Dashboard} />
-       <Route path='/users'  component={Users} />
-       <Route path='/usersn'  component={UsersNumber} />
-       <Route path='/userdetails'  component={UserDetails} />
-       <Route path='/generaldetails'  component={GeneralDetails} />
-       </Switch>
-       </div>
+      <Navbar/>
+        <Switch>
+          <Route path='/' exact component={LoginPage} />
+          <Route path='/usersn' exact component={UsersNumber} />
+          <Route path='/userstable' exact component={UsersTable} />
+          <Route path={[
+              '/users',
+              '/usersn',
+              '/userdetails',
+            ]}
+            exact
+          >
+            <Dashboard>
+              <Switch>
+                <Route path='/users' exact component={Users} />
+                <Route path='/userdetails' exact component={UserDetails} />
+                {/*<Route path='/generaldetails'  component={GeneralDetails} />*/}
+              </Switch>
+            </Dashboard>
+          </Route>
+        </Switch>
       </BrowserRouter>
     </div>
   );

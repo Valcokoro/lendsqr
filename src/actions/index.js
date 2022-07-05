@@ -10,7 +10,7 @@ export const fetchUsers = () => async dispatch => {
     const response = await users.get('/users');
     
     
-    dispatch ({ type: FETCH_USERS, payload: response.data.slice(0,1)});
+    dispatch ({ type: FETCH_USERS, payload: response.data.slice(0,7)});
 };
 
 

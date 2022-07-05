@@ -44,8 +44,16 @@
         position: absolute;
         top: 15px;
         left: 35px;
-
     }
+    .navbar{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 5px;
+        background-color: white;
+        margin-top:10px;
+    }
+    
 
     .nav-links{
         display: none;

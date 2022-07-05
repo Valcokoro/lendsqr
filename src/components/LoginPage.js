@@ -18,7 +18,7 @@ class LoginPage extends React.Component{
          <img src={pablo} alt='pablo sign-in' className='pablo'/>
          </div>
          <div className='enter-details'>
-          <p className='welcome'>Welcome!</p>
+         <p className='welcome'>Welcome!</p>
           <p className='enter'>Enter details to login.</p>
           <form className='form'>
           <input name='Email'    type='text' placeholder='Email' className='mail'/>

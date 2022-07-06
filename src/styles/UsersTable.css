@@ -3,12 +3,6 @@
     width: available;
     height: 800px;
   }
-  .users-table {
-    margin-top: 30px;
-    margin-left: -50px;
-    width: 200px;
-    height: 600px;
-  }
   .title-users {
     position: absolute;
     width: 66px;
@@ -21,20 +15,6 @@
     font-size: 24px;
     line-height: 28px;
     color: #213f7d;
-  }
-  .item1 {
-    -webkit-box-sizing: border-box;
-            box-sizing: border-box;
-    position: absolute;
-    width: 140px;
-    height: 160px;
-    left: 260px;
-    top: 228px;
-    background: #FFFFFF;
-    border: 1px solid rgba(33, 63, 125, 0.06);
-    -webkit-box-shadow: 3px 5px 20px rgba(0, 0, 0, 0.04);
-            box-shadow: 3px 5px 20px rgba(0, 0, 0, 0.04);
-    border-radius: 4px;
   }
   .usersn-icon {
     margin-left: 25px;
@@ -79,20 +59,6 @@
     text-transform: uppercase;
     color: #545f7d;
   }
-  .item2 {
-    -webkit-box-sizing: border-box;
-            box-sizing: border-box;
-    position: absolute;
-    width: 240px;
-    height: 160px;
-    left: 529px;
-    top: 228px;
-    background: #FFFFFF;
-    border: 1px solid rgba(33, 63, 125, 0.06);
-    -webkit-box-shadow: 3px 5px 20px rgba(0, 0, 0, 0.04);
-            box-shadow: 3px 5px 20px rgba(0, 0, 0, 0.04);
-    border-radius: 4px;
-  }
   .actusers-icon {
     margin-left: 25px;
     margin-top: 15px;
@@ -102,20 +68,6 @@
     margin-left: 33px;
     margin-top: 22px;
     position: absolute;
-  }
-  .item3 {
-    -webkit-box-sizing: border-box;
-            box-sizing: border-box;
-    position: absolute;
-    width: 240px;
-    height: 160px;
-    left: 795px;
-    top: 228px;
-    background: #FFFFFF;
-    border: 1px solid rgba(33, 63, 125, 0.06);
-    -webkit-box-shadow: 3px 5px 20px rgba(0, 0, 0, 0.04);
-            box-shadow: 3px 5px 20px rgba(0, 0, 0, 0.04);
-    border-radius: 4px;
   }
   .usersl-icon {
     margin-left: 25px;
@@ -145,20 +97,6 @@
     line-height: 16px;
     text-transform: uppercase;
     color: #545f7d;
-  }
-  .item4 {
-    -webkit-box-sizing: border-box;
-            box-sizing: border-box;
-    position: absolute;
-    width: 240px;
-    height: 160px;
-    left: 1065px;
-    top: 228px;
-    background: #FFFFFF;
-    border: 1px solid rgba(33, 63, 125, 0.06);
-    -webkit-box-shadow: 3px 5px 20px rgba(0, 0, 0, 0.04);
-            box-shadow: 3px 5px 20px rgba(0, 0, 0, 0.04);
-    border-radius: 4px;
   }
   .susers-icon {
     margin-left: 36px;
@@ -218,9 +156,9 @@
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
     position: absolute;
-    width: 1047px;
+    width: 932px;
     height: 640px;
-    left: 303px;
+    left: 330px;
     top: 428px;
     background: #FFFFFF;
     border: 1px solid rgba(33, 63, 125, 0.06);
@@ -495,20 +433,6 @@
     line-height: 28px;
     color: #213f7d;
   }
-  .item1 {
-    -webkit-box-sizing: border-box;
-            box-sizing: border-box;
-    position: absolute;
-    width: 240px;
-    height: 160px;
-    left: 83px;
-    top: 75px;
-    background: #FFFFFF;
-    border: 1px solid rgba(33, 63, 125, 0.06);
-    -webkit-box-shadow: 3px 5px 20px rgba(0, 0, 0, 0.04);
-            box-shadow: 3px 5px 20px rgba(0, 0, 0, 0.04);
-    border-radius: 4px;
-  }
   .usersn-icon {
     margin-left: 25px;
     margin-top: 15px;
@@ -552,20 +476,6 @@
     text-transform: uppercase;
     color: #545f7d;
   }
-  .item2 {
-    -webkit-box-sizing: border-box;
-            box-sizing: border-box;
-    position: absolute;
-    width: 240px;
-    height: 160px;
-    left: 83px;
-    top: 260px;
-    background: #FFFFFF;
-    border: 1px solid rgba(33, 63, 125, 0.06);
-    -webkit-box-shadow: 3px 5px 20px rgba(0, 0, 0, 0.04);
-            box-shadow: 3px 5px 20px rgba(0, 0, 0, 0.04);
-    border-radius: 4px;
-  }
   .actusers-icon {
     margin-left: 25px;
     margin-top: 15px;
@@ -575,20 +485,6 @@
     margin-left: 33px;
     margin-top: 22px;
     position: absolute;
-  }
-  .item3 {
-    -webkit-box-sizing: border-box;
-            box-sizing: border-box;
-    position: absolute;
-    width: 240px;
-    height: 160px;
-    left: 83px;
-    top: 445px;
-    background: #FFFFFF;
-    border: 1px solid rgba(33, 63, 125, 0.06);
-    -webkit-box-shadow: 3px 5px 20px rgba(0, 0, 0, 0.04);
-            box-shadow: 3px 5px 20px rgba(0, 0, 0, 0.04);
-    border-radius: 4px;
   }
   .usersl-icon {
     margin-left: 25px;
@@ -618,20 +514,6 @@
     line-height: 16px;
     text-transform: uppercase;
     color: #545f7d;
-  }
-  .item4 {
-    -webkit-box-sizing: border-box;
-            box-sizing: border-box;
-    position: absolute;
-    width: 240px;
-    height: 160px;
-    left: 83px;
-    top: 630px;
-    background: #FFFFFF;
-    border: 1px solid rgba(33, 63, 125, 0.06);
-    -webkit-box-shadow: 3px 5px 20px rgba(0, 0, 0, 0.04);
-            box-shadow: 3px 5px 20px rgba(0, 0, 0, 0.04);
-    border-radius: 4px;
   }
   .susers-icon {
     margin-left: 36px;
@@ -690,13 +572,9 @@
   .users-table {
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    position: absolute;
     width: 385px;
     height: 400px;
-    margin-left: 165px;
+    margin-left: 5px;
     margin-top: 1022px;
     background: white;
     border: 1px solid rgba(33, 63, 125, 0.06);
@@ -756,12 +634,12 @@
     left: 123px;
     top: 37px;
   }
-  .email {
+  .user-email {
     position: absolute;
     width: 50px;
     height: 17px;
     left: 136px;
-    margin-top: -107px;
+    top: 22px;
     font-family: "Work Sans";
     font-style: normal;
     font-weight: 600;
@@ -951,7 +829,7 @@
   }
   .dots-icon {
     position: absolute;
-    left: 80px;
+    left: 50px;
     margin-top: -40px;
     font-family: "Work Sans";
     font-style: normal;

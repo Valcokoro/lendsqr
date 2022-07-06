@@ -8,13 +8,7 @@
    width: available;
    height: 800px;
 }
-.users-table{
-  margin-top: 30px;
-  margin-left: -50px;
-  width: 200px;
-  height:600px;
-  
-}
+
 .title-users{
   position: $absPosition;
   width: 66px;
@@ -30,18 +24,6 @@
 }
     
     
-.item1{
-    box-sizing: border-box;
-    position: $absPosition;
-    width: 140px;
-    height: 160px;
-    left: 260px;
-    top: 228px; 
-    background: #FFFFFF;
-    border: 1px solid rgba(33, 63, 125, 0.06);
-    box-shadow: 3px 5px 20px rgba(0, 0, 0, 0.04);
-    border-radius: 4px
-}
 .usersn-icon{
     margin-left: 25px;
     margin-top: 15px;
@@ -85,18 +67,7 @@
     text-transform: uppercase;
     color: $ashColor;
 }
-.item2{
-    box-sizing: border-box;
-    position: absolute;
-    width: 240px;
-    height: 160px;
-    left: 529px;
-    top: 228px;
-    background: #FFFFFF;
-    border: 1px solid rgba(33, 63, 125, 0.06);
-    box-shadow: 3px 5px 20px rgba(0, 0, 0, 0.04);
-    border-radius: 4px;
-}
+
 .actusers-icon{
     margin-left: 25px;
     margin-top: 15px;
@@ -107,18 +78,7 @@
     margin-top: 22px;
     position: $absPosition;  
 }
-.item3{
-    box-sizing: border-box;
-    position: absolute;
-    width: 240px;
-    height: 160px;
-    left: 795px;
-    top: 228px;
-    background: #FFFFFF;
-    border: 1px solid rgba(33, 63, 125, 0.06);
-    box-shadow: 3px 5px 20px rgba(0, 0, 0, 0.04);
-    border-radius: 4px;
-}
+
 .usersl-icon{
     margin-left: 25px;
     margin-top: 15px;
@@ -148,18 +108,7 @@
     text-transform: uppercase;
     color: $ashColor;
 }
-.item4{
-    box-sizing: border-box;
-    position: absolute;
-    width: 240px;
-    height: 160px;
-    left: 1065px;
-    top: 228px;
-    background: #FFFFFF;
-    border: 1px solid rgba(33, 63, 125, 0.06);
-    box-shadow: 3px 5px 20px rgba(0, 0, 0, 0.04);
-    border-radius: 4px; 
-}
+
 .susers-icon{
     margin-left: 36px;
     margin-top: 25px;
@@ -217,9 +166,9 @@
 .users-table{
     box-sizing: border-box;
     position: absolute;
-    width: 1047px;
+    width: 932px;
     height: 640px;
-    left: 303px;
+    left: 330px;
     top: 428px;
     background: #FFFFFF;
     border: 1px solid rgba(33, 63, 125, 0.06);
@@ -476,18 +425,8 @@
        line-height: 28px;
        color: $blueColor;
     }
-    .item1{
-        box-sizing: border-box;
-        position: $absPosition;
-        width: 240px;
-        height: 160px;
-        left: 83px;
-        top: 75px; 
-        background: #FFFFFF;
-        border: 1px solid rgba(33, 63, 125, 0.06);
-        box-shadow: 3px 5px 20px rgba(0, 0, 0, 0.04);
-        border-radius: 4px
-    }
+    
+   
     .usersn-icon{
         margin-left: 25px;
         margin-top: 15px;
@@ -531,18 +470,7 @@
         text-transform: uppercase;
         color: $ashColor;
     }
-    .item2{
-        box-sizing: border-box;
-        position: $absPosition;
-        width: 240px;
-        height: 160px;
-        left: 83px;
-        top: 260px; 
-        background: #FFFFFF;
-        border: 1px solid rgba(33, 63, 125, 0.06);
-        box-shadow: 3px 5px 20px rgba(0, 0, 0, 0.04);
-        border-radius: 4px
-    }
+    
     .actusers-icon{
         margin-left: 25px;
         margin-top: 15px;
@@ -553,18 +481,7 @@
         margin-top: 22px;
         position: $absPosition;  
     }
-    .item3{
-       box-sizing: border-box;
-       position: absolute;
-       width: 240px;
-       height: 160px;
-       left: 83px;
-       top: 445px;
-       background: #FFFFFF;
-       border: 1px solid rgba(33, 63, 125, 0.06);
-       box-shadow: 3px 5px 20px rgba(0, 0, 0, 0.04);
-       border-radius: 4px;
-}
+    
    .usersl-icon{
       margin-left: 25px;
       margin-top: 15px;
@@ -594,18 +511,7 @@
       text-transform: uppercase;
       color: $ashColor;
 }
-.item4{
-    box-sizing: border-box;
-       position: absolute;
-       width: 240px;
-       height: 160px;
-       left: 83px;
-       top: 630px;
-       background: #FFFFFF;
-       border: 1px solid rgba(33, 63, 125, 0.06);
-       box-shadow: 3px 5px 20px rgba(0, 0, 0, 0.04);
-       border-radius: 4px;
-}
+
 .susers-icon{
     margin-left: 36px;
     margin-top: 25px;
@@ -662,11 +568,9 @@
 }
 .users-table{
     box-sizing: border-box;
-    display: flex;
-    position: $absPosition;
     width: 385px;
     height: 400px;
-    margin-left: 165px;
+    margin-left: 5px;
     margin-top: 1022px;
     background: $whiteColor;
     border: 1px solid rgba(33, 63, 125, 0.06);
@@ -717,12 +621,12 @@
     left: 123px;
     top: 37px;
 }
-.email{
+.user-email{
     position: $absPosition;
     width: 50px;
     height: 17px;
     left: 136px;
-    margin-top: -107px;
+    top: 22px;
     font-family: $titleFont2;
     font-style: normal;
     font-weight: 600;
@@ -896,7 +800,7 @@
 }
 .dots-icon{
     position: $absPosition;
-    left: 80px;
+    left: 50px;
     margin-top:-40px;
     font-family: $titleFont2;
     font-style: normal;

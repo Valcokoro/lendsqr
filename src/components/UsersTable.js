@@ -103,7 +103,7 @@ import dots from '../assets/dots.svg';
                  <img src={dropdown} alt='dropdown icon' className='dropdown2'/>
                 </th>
                 <th>
-                <p className='email'>EMAIL</p>
+                <p className='user-email'>EMAIL</p>
                 <img src={dropdown} alt='dropdown icon' className='dropdown3'/>
                 </th>
                  <th>

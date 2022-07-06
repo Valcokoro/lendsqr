@@ -46,7 +46,7 @@ class GeneralDetails extends React.Component{
          console.log(this.props.users)
         return (
             <div className='GeneralDetails'>
-               <div className='grid-container'>
+               <div className='flex-container'>
                 <div className='item1'>
                <p className='personal-info'>Personal Information</p>
                <p className='full-name'>FULL NAME</p>

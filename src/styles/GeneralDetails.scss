@@ -419,14 +419,17 @@
 
 
 @media(max-width: 780px){
-
+    
+  .flex-container{
+       display: flex;
+    }
     .item1{
         box-sizing: border-box;
         position: absolute;
         width: 320px;
         height: 510px;
         left: 30px;
-        top: 50px;
+        top: 1300px;
         background: #FFFFFF;
         border: 1px solid rgba(33, 63, 125, 0.06);
         box-shadow: 3px 5px 20px rgba(0, 0, 0, 0.04);
@@ -664,10 +667,10 @@
       .item2{
         box-sizing: border-box;
         position: absolute;
-        width: 320px;
+        width: 310px;
         height: 510px;
         left: 30px;
-        top: 580px;
+        top: 1680px;
         background: #FFFFFF;
         border: 1px solid rgba(33, 63, 125, 0.06);
         box-shadow: 3px 5px 20px rgba(0, 0, 0, 0.04);

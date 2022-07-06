@@ -709,7 +709,7 @@
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
     position: absolute;
-    width: 347px;
+    width: 247px;
     height: 50px;
     margin-left: 30px;
     margin-top: 90px;
@@ -726,8 +726,8 @@
   .search-btn {
     position: absolute;
     height: 49px;
-    width: 50px;
-    margin-left: 330px;
+    width: 40px;
+    margin-left: 240px;
     margin-top: 90px;
     background: #39cdcc;
     border: 0px;
@@ -738,27 +738,27 @@
     font-family: "Roboto";
     font-size: 16px;
     line-height: 19px;
-    margin-left: 190px;
+    margin-left: 100px;
     margin-top: 15px;
     color: #213f7d;
     position: absolute;
   }
   .bell {
     position: absolute;
-    margin-left: 245px;
+    margin-left: 145px;
     margin-top: 15px;
     height: 19px;
   }
   .user-image {
     position: absolute;
-    margin-left: 270px;
+    margin-left: 170px;
     margin-top: 15px;
     width: 38px;
     height: 20px;
   }
   .current-user {
     position: absolute;
-    margin-left: 305px;
+    margin-left: 210px;
     margin-top: 15px;
     font-family: "Work Sans";
     font-style: normal;
@@ -769,7 +769,7 @@
   }
   .select {
     border: 0px;
-    margin-left: 355px;
+    margin-left: 257px;
     margin-top: 18px;
   }
   .organization-icon {
@@ -806,19 +806,19 @@
     position: absolute;
     width: 36px;
     height: 27px;
-    margin-top: -4898px;
-    margin-left: 92px;
+    margin-top: 175px;
+    margin-left: 72px;
   }
   .dashboard1-icon {
     position: absolute;
     width: 36px;
     height: 27px;
-    margin-top: -4908px;
-    margin-left: 92px;
+    margin-top: 169px;
+    margin-left: 72px;
   }
   .dashboard {
-    margin-top: -4894px;
-    margin-left: 137px;
+    margin-top: 180px;
+    margin-left: 113px;
     position: absolute;
     width: 157px;
     height: 19px;
@@ -833,8 +833,8 @@
     position: absolute;
     width: 157px;
     height: 19px;
-    margin-top: -4834px;
-    margin-left: 70px;
+    margin-top: 200px;
+    margin-left: 60px;
     font-family: "Work Sans";
     font-style: normal;
     font-weight: 500;
@@ -846,22 +846,22 @@
     width: 36px;
     height: 27px;
     position: absolute;
-    margin-top: -4804px;
-    margin-left: 92px;
+    margin-top: 250px;
+    margin-left: 72px;
   }
   .users1-icon {
     width: 36px;
     height: 27px;
     position: absolute;
-    margin-top: -4804px;
-    margin-left: 100px;
+    margin-top: 250px;
+    margin-left: 78px;
   }
   .users {
     position: absolute;
     width: 44px;
     height: 19px;
-    margin-top: -4798px;
-    margin-left: 140px;
+    margin-top: 250px;
+    margin-left: 113px;
     font-family: "Work Sans";
     font-style: normal;
     font-weight: 400;
@@ -873,22 +873,22 @@
     width: 36px;
     height: 27px;
     position: absolute;
-    margin-top: -4760px;
-    margin-left: 97px;
+    margin-top: 295px;
+    margin-left: 73px;
   }
   .guarantors1-icon {
     width: 36px;
     height: 27px;
     position: absolute;
-    margin-top: -4760px;
-    margin-left: 97px;
+    margin-top: 295px;
+    margin-left: 73px;
   }
   .guarantors {
     position: absolute;
     width: 44px;
     height: 19px;
-    margin-top: -4758px;
-    margin-left: 142px;
+    margin-top: 300px;
+    margin-left: 113px;
     font-family: "Work Sans";
     font-style: normal;
     font-weight: 400;
@@ -900,22 +900,22 @@
     width: 36px;
     height: 27px;
     position: absolute;
-    margin-top: -4715px;
-    margin-left: 97px;
+    margin-top: 340px;
+    margin-left: 73px;
   }
   .loans1-icon {
     width: 18px;
     height: 27px;
     position: absolute;
-    margin-top: -4710px;
-    margin-left: 105px;
+    margin-top: 344px;
+    margin-left: 83px;
   }
   .loans {
     position: absolute;
     width: 44px;
     height: 19px;
-    margin-top: -4710px;
-    margin-left: 142px;
+    margin-top: 344px;
+    margin-left: 118px;
     font-family: "Work Sans";
     font-style: normal;
     font-weight: 400;
@@ -927,15 +927,15 @@
     width: 30px;
     height: 27px;
     position: absolute;
-    margin-top: -4677px;
-    margin-left: 105px;
+    margin-top: 384px;
+    margin-left: 78px;
   }
   .decision {
     position: absolute;
     width: 128px;
     height: 19px;
-    margin-top: -4673px;
-    margin-left: 142px;
+    margin-top: 384px;
+    margin-left: 118px;
     font-family: "Work Sans";
     font-style: normal;
     font-weight: 400;
@@ -947,22 +947,22 @@
     width: 30px;
     height: 27px;
     position: absolute;
-    margin-top: -4639px;
-    margin-left: 105px;
+    margin-top: 424px;
+    margin-left: 78px;
   }
   .savings1-icon {
     width: 30px;
     height: 27px;
     position: absolute;
-    margin-top: -4647px;
-    margin-left: 100px;
+    margin-top: 414px;
+    margin-left: 73px;
   }
   .savings {
     position: absolute;
     width: 128px;
     height: 19px;
-    margin-top: -4637px;
-    margin-left: 145px;
+    margin-top: 424px;
+    margin-left: 118px;
     font-family: "Work Sans";
     font-style: normal;
     font-weight: 400;

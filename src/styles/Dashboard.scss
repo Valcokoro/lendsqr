@@ -715,7 +715,7 @@ a{
 .dashboard-search{
    box-sizing: border-box;
    position: $absPosition; 
-   width: 347px;
+   width: 247px;
    height: 50px;
    margin-left: 30px;
    margin-top: 90px;
@@ -732,8 +732,8 @@ a{
   .search-btn{
    position:  $absPosition;
    height: 49px;
-   width:50px;
-   margin-left: 330px;
+   width:40px;
+   margin-left: 240px;
    margin-top: 90px;
    background: $greenColor;
    border: 0px;
@@ -744,27 +744,27 @@ a{
    font-family: $titleFont3;
    font-size: 16px;
    line-height: 19px;
-   margin-left: 190px;
+   margin-left: 100px;
    margin-top: 15px;
    color: $blueColor;
    position: $absPosition;
   }
   .bell{
    position:  $absPosition;
-   margin-left: 245px;
+   margin-left: 145px;
    margin-top: 15px;
    height: 19px;
   }
   .user-image{
     position: $absPosition;
-    margin-left: 270px;
+    margin-left: 170px;
     margin-top: 15px;
     width:38px;
     height:20px;
   }
   .current-user{
     position: $absPosition;
-    margin-left: 305px;
+    margin-left: 210px;
     margin-top: 15px;
     font-family: $titleFont2;
     font-style: normal;
@@ -775,7 +775,7 @@ a{
   }
   .select{
     border:0px;
-    margin-left: 355px;
+    margin-left: 257px;
     margin-top: 18px;
   }
   .organization-icon{
@@ -812,19 +812,19 @@ a{
     position: $absPosition;
     width:36px;
     height: 27px;
-    margin-top: -4898px;
-    margin-left: 92px;
+    margin-top: 175px;
+    margin-left: 72px;
   }
   .dashboard1-icon{
     position: $absPosition;
     width:36px;
     height: 27px;
-    margin-top: -4908px;
-    margin-left: 92px;
+    margin-top: 169px;
+    margin-left: 72px;
   }
   .dashboard{
-    margin-top: -4894px;
-    margin-left: 137px;
+    margin-top: 180px;
+    margin-left: 113px;
     position: $absPosition;
     width: 157px;
     height: 19px;
@@ -839,8 +839,8 @@ a{
     position: $absPosition;
     width: 157px;
     height: 19px;
-    margin-top: -4834px;
-    margin-left: 70px;
+    margin-top: 200px;
+    margin-left: 60px;
     font-family: $titleFont2;
     font-style: normal;
     font-weight: 500;
@@ -852,22 +852,22 @@ a{
     width:36px;
     height: 27px;
     position: $absPosition;
-    margin-top: -4804px;
-    margin-left: 92px;
+    margin-top: 250px;
+    margin-left: 72px;
   }
   .users1-icon{
     width:36px;
     height: 27px;
     position: $absPosition;
-    margin-top: -4804px;
-    margin-left: 100px;
+    margin-top: 250px;
+    margin-left: 78px;
   }
   .users{
     position: $absPosition;
     width: 44px;
     height: 19px;
-    margin-top: -4798px;
-    margin-left: 140px;
+    margin-top: 250px;
+    margin-left: 113px;
     font-family: $titleFont2;
     font-style: normal;
     font-weight: 400;
@@ -879,22 +879,22 @@ a{
     width:36px;
     height: 27px;
     position: $absPosition;
-    margin-top: -4760px;
-    margin-left: 97px;
+    margin-top: 295px;
+    margin-left: 73px;
   }
   .guarantors1-icon{
     width:36px;
     height: 27px;
     position: $absPosition;
-    margin-top: -4760px;
-    margin-left: 97px;
+    margin-top: 295px;
+    margin-left: 73px;
   }
   .guarantors{
     position: $absPosition;
     width: 44px;
     height: 19px;
-    margin-top: -4758px;
-    margin-left: 142px;
+    margin-top: 300px;
+    margin-left: 113px;
     font-family: $titleFont2;
     font-style: normal;
     font-weight: 400;
@@ -906,22 +906,22 @@ a{
     width:36px;
     height: 27px;
     position: $absPosition;
-    margin-top: -4715px;
-    margin-left: 97px;
+    margin-top: 340px;
+    margin-left: 73px;
   }
   .loans1-icon{
     width:18px;
     height: 27px;
     position: $absPosition;
-    margin-top: -4710px;
-    margin-left: 105px;
+    margin-top: 344px;
+    margin-left: 83px;
   }
   .loans{
     position: $absPosition;
     width: 44px;
     height: 19px;
-    margin-top: -4710px;
-    margin-left: 142px;
+    margin-top: 344px;
+    margin-left: 118px;
     font-family: $titleFont2;
     font-style: normal;
     font-weight: 400;
@@ -933,15 +933,15 @@ a{
     width:30px;
     height: 27px;
     position: $absPosition;
-    margin-top: -4677px;
-    margin-left: 105px;
+    margin-top: 384px;
+    margin-left: 78px;
   }
   .decision{
     position: $absPosition;
     width: 128px;
     height: 19px;
-    margin-top: -4673px;
-    margin-left: 142px;
+    margin-top: 384px;
+    margin-left: 118px;
     font-family: $titleFont2;
     font-style: normal;
     font-weight: 400;
@@ -953,22 +953,22 @@ a{
     width:30px;
     height: 27px;
     position: $absPosition;
-    margin-top: -4639px;
-    margin-left: 105px;
+    margin-top: 424px;
+    margin-left: 78px;
   }
   .savings1-icon{
     width:30px;
     height: 27px;
     position: $absPosition;
-    margin-top: -4647px;
-    margin-left: 100px;
+    margin-top: 414px;
+    margin-left: 73px;
   }
   .savings{
     position: $absPosition;
     width: 128px;
     height: 19px;
-    margin-top: -4637px;
-    margin-left: 145px;
+    margin-top: 424px;
+    margin-left: 118px;
     font-family: $titleFont2;
     font-style: normal;
     font-weight: 400;

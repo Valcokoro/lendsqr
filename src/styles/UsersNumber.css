@@ -201,14 +201,14 @@
 }
 
 @media (max-width: 780px) {
-  .item1 {
+  .item0 {
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
     position: absolute;
     width: 240px;
     height: 160px;
     left: 83px;
-    top: 75px;
+    margin-top: 905px;
     background: #FFFFFF;
     border: 1px solid rgba(33, 63, 125, 0.06);
     -webkit-box-shadow: 3px 5px 20px rgba(0, 0, 0, 0.04);
@@ -258,14 +258,14 @@
     text-transform: uppercase;
     color: #545f7d;
   }
-  .item2 {
+  .item {
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
     position: absolute;
     width: 240px;
     height: 160px;
     left: 83px;
-    top: 260px;
+    margin-top: 1100px;
     background: #FFFFFF;
     border: 1px solid rgba(33, 63, 125, 0.06);
     -webkit-box-shadow: 3px 5px 20px rgba(0, 0, 0, 0.04);
@@ -289,7 +289,7 @@
     width: 240px;
     height: 160px;
     left: 83px;
-    top: 445px;
+    margin-top: 920px;
     background: #FFFFFF;
     border: 1px solid rgba(33, 63, 125, 0.06);
     -webkit-box-shadow: 3px 5px 20px rgba(0, 0, 0, 0.04);
@@ -332,7 +332,7 @@
     width: 240px;
     height: 160px;
     left: 83px;
-    top: 630px;
+    margin-top: 920px;
     background: #FFFFFF;
     border: 1px solid rgba(33, 63, 125, 0.06);
     -webkit-box-shadow: 3px 5px 20px rgba(0, 0, 0, 0.04);

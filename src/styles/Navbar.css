@@ -73,7 +73,7 @@
     list-style: none;
     background-color: gainsboro;
     left: 0;
-    top: 75px;
+    top: 135px;
     -webkit-transition: all 0.5s ease-out;
     transition: all 0.5s ease-out;
     width: 100%;
@@ -81,7 +81,7 @@
   .login,
   .userspage,
   .userdetails {
-    color: orangered;
+    color: #39cdcc;
     text-align: center;
     padding: 32px;
     width: 100%;
@@ -92,7 +92,7 @@
     display: block;
     position: absolute;
     font-size: 30px;
-    color: orangered;
+    color: #39cdcc;
     border: none;
     outline: none;
     top: 15px;

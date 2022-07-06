@@ -66,7 +66,7 @@
         list-style: none;
         background-color: gainsboro;
         left: 0;
-        top: 75px;
+        top: 135px;
         transition: all 0.5s ease-out;
         width: 100%;
 
@@ -75,7 +75,7 @@
     .login,
     .userspage,
     .userdetails{
-        color: orangered;
+        color: $greenColor;
         text-align: center;
         padding: 32px;
         width: 100%;
@@ -86,7 +86,7 @@
         display: block;
         position: absolute;
         font-size: 30px;
-        color: orangered;
+        color: $greenColor;
         border: none;
         outline: none;
         top: 15px;

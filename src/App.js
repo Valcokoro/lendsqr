@@ -17,6 +17,7 @@ const App = () => {
       <Navbar/>
         <Switch>
           <Route path='/' exact component={LoginPage} />
+          <Route path='/user' exact component={Users} />
           <Route path='/usersn' exact component={UsersNumber} />
           <Route path='/dashboard' exact component={Dashboard} />
           <Route path='/userstable' exact component={UsersTable} />

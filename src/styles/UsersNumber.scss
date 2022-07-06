@@ -3,14 +3,13 @@
 @media(min-width: 480px){
 .flex-container{
     display: flex;
-    gap: 10px;
-    padding: 10px;
-}
+    
 
 .item0{
     box-sizing: border-box;
     position: $absPosition;
     width: 280px;
+    display: flex;
     height: 160px;
     left: 199px;
     top: 228px; 
@@ -203,14 +202,19 @@
 
 
 @media(max-width: 780px){
+
+    .flex-container{
+        display: flex;
+    }
   
     .item0{
         box-sizing: border-box;
+        display: flex;
         position: $absPosition;
         width: 240px;
         height: 160px;
         left: 83px;
-        margin-top: 1005px; 
+        margin-top: 55px; 
         background: #FFFFFF;
         border: 1px solid rgba(33, 63, 125, 0.06);
         box-shadow: 3px 5px 20px rgba(0, 0, 0, 0.04);
@@ -262,10 +266,11 @@
     .item{
         box-sizing: border-box;
         position: $absPosition;
+        display: flex;
         width: 240px;
         height: 160px;
         left: 83px;
-        margin-top: 1200px; 
+        margin-top: 230px; 
         background: #FFFFFF;
         border: 1px solid rgba(33, 63, 125, 0.06);
         box-shadow: 3px 5px 20px rgba(0, 0, 0, 0.04);
@@ -284,10 +289,11 @@
     .item3{
        box-sizing: border-box;
        position: absolute;
+       display: flex;
        width: 240px;
        height: 160px;
        left: 83px;
-       margin-top: 1020px;
+       margin-top: 1050px;
        background: #FFFFFF;
        border: 1px solid rgba(33, 63, 125, 0.06);
        box-shadow: 3px 5px 20px rgba(0, 0, 0, 0.04);
@@ -328,7 +334,7 @@
        width: 240px;
        height: 160px;
        left: 83px;
-       margin-top: 1020px;
+       margin-top: 1040px;
        background: #FFFFFF;
        border: 1px solid rgba(33, 63, 125, 0.06);
        box-shadow: 3px 5px 20px rgba(0, 0, 0, 0.04);

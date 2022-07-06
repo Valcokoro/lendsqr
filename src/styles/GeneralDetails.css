@@ -406,6 +406,114 @@
     line-height: 19px;
     color: #545F7D;
   }
+  .item3 {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    position: absolute;
+    width: 942px;
+    height: 210px;
+    left: 290px;
+    top: 750px;
+    background: #FFFFFF;
+    border: 1px solid rgba(33, 63, 125, 0.06);
+    -webkit-box-shadow: 3px 5px 20px rgba(0, 0, 0, 0.04);
+            box-shadow: 3px 5px 20px rgba(0, 0, 0, 0.04);
+    border-radius: 4px;
+  }
+  .socials {
+    position: absolute;
+    width: 56px;
+    height: 19px;
+    left: 43px;
+    top: 24px;
+    font-family: "Work Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #213f7d;
+  }
+  .twitter {
+    position: absolute;
+    width: 53px;
+    height: 14px;
+    left: 43px;
+    top: 74px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    text-transform: uppercase;
+    color: #545f7d;
+  }
+  .twitter-shown {
+    position: absolute;
+    width: 118px;
+    height: 19px;
+    left: 43px;
+    top: 94px;
+    font-family: "Work Sans";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    color: #545f7d;
+  }
+  .facebook {
+    position: absolute;
+    width: 53px;
+    height: 14px;
+    left: 243px;
+    top: 74px;
+    font-family: "Work Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    text-transform: uppercase;
+    color: #545f7d;
+  }
+  .facebook-shown {
+    position: absolute;
+    width: 118px;
+    height: 19px;
+    left: 237px;
+    top: 94px;
+    font-family: "Work Sans";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    color: #545f7d;
+  }
+  .instagram {
+    position: absolute;
+    width: 53px;
+    height: 14px;
+    left: 403px;
+    top: 74px;
+    font-family: "Work Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    text-transform: uppercase;
+    color: #545f7d;
+  }
+  .insta-shown {
+    position: absolute;
+    width: 118px;
+    height: 19px;
+    left: 397px;
+    top: 94px;
+    font-family: "Work Sans";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    color: #545f7d;
+  }
 }
 
 @media (max-width: 780px) {
@@ -820,6 +928,114 @@
     font-size: 12px;
     line-height: 14px;
     text-transform: uppercase;
+    color: #545F7D;
+  }
+  .item3 {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    position: absolute;
+    width: 320px;
+    height: 510px;
+    left: 30px;
+    top: 1320px;
+    background: #FFFFFF;
+    border: 1px solid rgba(33, 63, 125, 0.06);
+    -webkit-box-shadow: 3px 5px 20px rgba(0, 0, 0, 0.04);
+            box-shadow: 3px 5px 20px rgba(0, 0, 0, 0.04);
+    border-radius: 4px;
+  }
+  .socials {
+    position: absolute;
+    width: 202px;
+    height: 19px;
+    left: 33px;
+    top: 20px;
+    font-family: "Work Sans";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    color: #213F7D;
+  }
+  .twitter {
+    position: absolute;
+    width: 202px;
+    height: 14px;
+    left: 33px;
+    top: 65px;
+    font-family: "Work Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    text-transform: uppercase;
+    color: #545F7D;
+  }
+  .twitter-shown {
+    position: absolute;
+    width: 132px;
+    height: 19px;
+    left: 33px;
+    top: 85px;
+    font-family: "Work Sans";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    color: #545F7D;
+  }
+  .facebook {
+    position: absolute;
+    width: 202px;
+    height: 14px;
+    left: 40px;
+    top: 160px;
+    font-family: "Work Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    text-transform: uppercase;
+    color: #545F7D;
+  }
+  .facebook-shown {
+    position: absolute;
+    width: 132px;
+    height: 19px;
+    left: 35px;
+    top: 180px;
+    font-family: "Work Sans";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    color: #545F7D;
+  }
+  .instagram {
+    position: absolute;
+    width: 202px;
+    height: 14px;
+    left: 40px;
+    top: 260px;
+    font-family: "Work Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    text-transform: uppercase;
+    color: #545F7D;
+  }
+  .insta-shown {
+    position: absolute;
+    width: 132px;
+    height: 19px;
+    left: 35px;
+    top: 280px;
+    font-family: "Work Sans";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
     color: #545F7D;
   }
 }

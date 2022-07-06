@@ -83,6 +83,15 @@ class GeneralDetails extends React.Component{
                <p className='loan-repay'>LOAN REPAYMENT</p>
                <p className='amount'>40,000</p>
                </div>
+               <div className='item3'>
+               <p className='socials'>Socials</p>
+               <p className='twitter'>TWITTER</p>
+               <p className='twitter-shown'>@Candice_Bartlett</p>
+               <p className='facebook'>FACEBOOK</p>
+               <p className='facebook-shown'>Candice Bartlett</p>
+               <p className='instagram'>INSTAGRAM</p>
+               <p className='insta-shown'>@Candice_Bartlett</p>
+               </div>
                </div>
             </div>
         )

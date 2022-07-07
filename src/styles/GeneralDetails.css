@@ -1,12 +1,12 @@
 @media (min-width: 480px) {
-  .item1 {
+  .grid1 {
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
     position: absolute;
     width: 940px;
     height: 220px;
     left: 285px;
-    top: 290px;
+    top: 590px;
     background: #FFFFFF;
     border: 1px solid rgba(33, 63, 125, 0.06);
     -webkit-box-shadow: 3px 5px 20px rgba(0, 0, 0, 0.04);
@@ -242,14 +242,14 @@
     line-height: 19px;
     color: #545F7D;
   }
-  .item2 {
+  .grid2 {
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
     position: absolute;
     width: 940px;
     height: 220px;
     left: 285px;
-    top: 520px;
+    top: 820px;
     background: #FFFFFF;
     border: 1px solid rgba(33, 63, 125, 0.06);
     -webkit-box-shadow: 3px 5px 20px rgba(0, 0, 0, 0.04);
@@ -413,7 +413,7 @@
     width: 942px;
     height: 210px;
     left: 290px;
-    top: 750px;
+    top: 1050px;
     background: #FFFFFF;
     border: 1px solid rgba(33, 63, 125, 0.06);
     -webkit-box-shadow: 3px 5px 20px rgba(0, 0, 0, 0.04);
@@ -514,6 +514,141 @@
     line-height: 19px;
     color: #545f7d;
   }
+  .grid4 {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    position: absolute;
+    width: 942px;
+    height: 210px;
+    left: 290px;
+    top: 970px;
+    background: #FFFFFF;
+    border: 1px solid rgba(33, 63, 125, 0.06);
+    -webkit-box-shadow: 3px 5px 20px rgba(0, 0, 0, 0.04);
+            box-shadow: 3px 5px 20px rgba(0, 0, 0, 0.04);
+    border-radius: 4px;
+  }
+  .guarantor-grid {
+    position: absolute;
+    width: 56px;
+    height: 19px;
+    left: 43px;
+    top: 24px;
+    font-family: "Work Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #213f7d;
+  }
+  .guarantor-name {
+    position: absolute;
+    width: 153px;
+    height: 14px;
+    left: 43px;
+    top: 74px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    text-transform: uppercase;
+    color: #545f7d;
+  }
+  .guarantor-name1 {
+    position: absolute;
+    width: 118px;
+    height: 19px;
+    left: 43px;
+    top: 94px;
+    font-family: "Work Sans";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    color: #545f7d;
+  }
+  .guarantor-phone {
+    position: absolute;
+    width: 153px;
+    height: 14px;
+    left: 243px;
+    top: 74px;
+    font-family: "Work Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    text-transform: uppercase;
+    color: #545f7d;
+  }
+  .guarantor-phone1 {
+    position: absolute;
+    width: 118px;
+    height: 19px;
+    left: 237px;
+    top: 94px;
+    font-family: "Work Sans";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    color: #545f7d;
+  }
+  .guarantor-email {
+    position: absolute;
+    width: 153px;
+    height: 14px;
+    left: 390px;
+    top: 74px;
+    font-family: "Work Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    text-transform: uppercase;
+    color: #545f7d;
+  }
+  .guarantor-email1 {
+    position: absolute;
+    width: 118px;
+    height: 19px;
+    left: 367px;
+    top: 94px;
+    font-family: "Work Sans";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    color: #545f7d;
+  }
+  .relationship {
+    position: absolute;
+    width: 53px;
+    height: 14px;
+    left: 540px;
+    top: 74px;
+    font-family: "Work Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    text-transform: uppercase;
+    color: #545f7d;
+  }
+  .guarantor-relate {
+    position: absolute;
+    width: 118px;
+    height: 19px;
+    left: 537px;
+    top: 94px;
+    font-family: "Work Sans";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    color: #545f7d;
+  }
 }
 
 @media (max-width: 780px) {
@@ -522,14 +657,14 @@
     display: -ms-flexbox;
     display: flex;
   }
-  .item1 {
+  .grid1 {
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
     position: absolute;
     width: 320px;
     height: 510px;
     left: 30px;
-    top: 1300px;
+    margin-top: 1870px;
     background: #FFFFFF;
     border: 1px solid rgba(33, 63, 125, 0.06);
     -webkit-box-shadow: 3px 5px 20px rgba(0, 0, 0, 0.04);
@@ -765,14 +900,14 @@
     line-height: 19px;
     color: #545F7D;
   }
-  .item2 {
+  .grid2 {
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
     position: absolute;
     width: 322px;
     height: 510px;
     left: 30px;
-    top: 1840px;
+    top: 2470px;
     background: #FFFFFF;
     border: 1px solid rgba(33, 63, 125, 0.06);
     -webkit-box-shadow: 3px 5px 20px rgba(0, 0, 0, 0.04);
@@ -937,7 +1072,7 @@
     width: 320px;
     height: 510px;
     left: 30px;
-    top: 1320px;
+    top: 3000px;
     background: #FFFFFF;
     border: 1px solid rgba(33, 63, 125, 0.06);
     -webkit-box-shadow: 3px 5px 20px rgba(0, 0, 0, 0.04);
@@ -1037,6 +1172,141 @@
     font-size: 16px;
     line-height: 19px;
     color: #545F7D;
+  }
+  .grid4 {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    position: absolute;
+    width: 320px;
+    height: 510px;
+    left: 30px;
+    top: 1320px;
+    background: #FFFFFF;
+    border: 1px solid rgba(33, 63, 125, 0.06);
+    -webkit-box-shadow: 3px 5px 20px rgba(0, 0, 0, 0.04);
+            box-shadow: 3px 5px 20px rgba(0, 0, 0, 0.04);
+    border-radius: 4px;
+  }
+  .guarantor-grid {
+    position: absolute;
+    width: 56px;
+    height: 19px;
+    left: 43px;
+    top: 24px;
+    font-family: "Work Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #213f7d;
+  }
+  .guarantor-name {
+    position: absolute;
+    width: 153px;
+    height: 14px;
+    left: 43px;
+    top: 74px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    text-transform: uppercase;
+    color: #545f7d;
+  }
+  .guarantor-name1 {
+    position: absolute;
+    width: 118px;
+    height: 19px;
+    left: 43px;
+    top: 94px;
+    font-family: "Work Sans";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    color: #545f7d;
+  }
+  .guarantor-phone {
+    position: absolute;
+    width: 153px;
+    height: 14px;
+    left: 243px;
+    top: 74px;
+    font-family: "Work Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    text-transform: uppercase;
+    color: #545f7d;
+  }
+  .guarantor-phone1 {
+    position: absolute;
+    width: 118px;
+    height: 19px;
+    left: 237px;
+    top: 94px;
+    font-family: "Work Sans";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    color: #545f7d;
+  }
+  .guarantor-email {
+    position: absolute;
+    width: 153px;
+    height: 14px;
+    left: 390px;
+    top: 74px;
+    font-family: "Work Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    text-transform: uppercase;
+    color: #545f7d;
+  }
+  .guarantor-email1 {
+    position: absolute;
+    width: 118px;
+    height: 19px;
+    left: 367px;
+    top: 94px;
+    font-family: "Work Sans";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    color: #545f7d;
+  }
+  .relationship {
+    position: absolute;
+    width: 53px;
+    height: 14px;
+    left: 540px;
+    top: 74px;
+    font-family: "Work Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    text-transform: uppercase;
+    color: #545f7d;
+  }
+  .guarantor-relate {
+    position: absolute;
+    width: 118px;
+    height: 19px;
+    left: 537px;
+    top: 94px;
+    font-family: "Work Sans";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    color: #545f7d;
   }
 }
 /*# sourceMappingURL=GeneralDetails.css.map */

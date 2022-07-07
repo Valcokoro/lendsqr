@@ -170,7 +170,7 @@
    border: 1px solid #545F7D;
    transform: rotate(90deg)
 }
-.amount{
+.balance{
    position:$absPosition;
    width: 137px;
    height: 23px;
@@ -382,7 +382,7 @@
         width: 320px;
         height: 510px;
         left: 45px;
-        top: 290px;
+        top: 1350px;
         background: #FFFFFF;
         border: 1px solid rgba(33, 63, 125, 0.06);
         box-shadow: 3px 5px 20px rgba(0, 0, 0, 0.04);
@@ -480,7 +480,7 @@
     border: 1px solid #545F7D;
     transform: rotate(90deg)
 }
-.amount{
+.balance{
     position:$absPosition;
     width: 137px;
     height: 23px;

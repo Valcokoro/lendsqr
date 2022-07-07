@@ -63,7 +63,7 @@ class UserDetails extends React.Component{
                     <img src={star1} alt='star' className='star1'/>
                     <img src={star1} alt='star' className='star2'/>
                     <img src={line1} alt='line' className='line2'/>
-                    <p className='amount'>₦200,000.00</p>
+                    <p className='balance'>₦200,000.00</p>
                     <p className='bank'>9912345678/Providus Bank</p>
                     <a href='/' className='details'>General Details</a>
                     <a href='/userdetails' className='documents'>Documents</a>

@@ -47,7 +47,7 @@ class GeneralDetails extends React.Component{
         return (
             <div className='GeneralDetails'>
                <div className='flex-container'>
-                <div className='item1'>
+                <div className='grid1'>
                <p className='personal-info'>Personal Information</p>
                <p className='full-name'>FULL NAME</p>
                <p className='name-shown1'>{this.renderName()}</p>
@@ -66,7 +66,7 @@ class GeneralDetails extends React.Component{
                <p className='residence'>TYPE OF RESIDENCE</p>
                <p className='apartment'>Parent's Apartment</p>
                </div>
-               <div className='item2'>
+               <div className='grid2'>
                <p className='education-info'>Education and Employment</p>
                <p className='education-level'>LEVEL OF EDUCATION</p>
                <p className='name-shown1'>BSc</p>
@@ -92,6 +92,7 @@ class GeneralDetails extends React.Component{
                <p className='instagram'>INSTAGRAM</p>
                <p className='insta-shown'>@Candice_Bartlett</p>
                </div>
+               
                </div>
             </div>
         )

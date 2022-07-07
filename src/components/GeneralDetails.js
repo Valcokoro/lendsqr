@@ -92,7 +92,17 @@ class GeneralDetails extends React.Component{
                <p className='instagram'>INSTAGRAM</p>
                <p className='insta-shown'>@Candice_Bartlett</p>
                </div>
-               
+               <div className='grid4'>
+               <p className='guarantor-grid'>Guarantor</p>
+               <p className='guarantor-name'>FULL NAME</p>
+               <p className='guarantor-name1'>Debby Wilson</p>
+               <p className='guarantor-phone'>PHONE NUMBER</p>
+               <p className='guarantor-phone1'>(665) 257-5275</p>
+               <p className='guarantor-email'>EMAIL ADDRESS</p>
+               <p className='guarantor-email1'>@Candice_Bartlett</p>
+               <p className='relationship'>RELATIONSHIP</p>
+               <p className='guarantor-relate'>Sister</p>
+               </div>
                </div>
             </div>
         )
